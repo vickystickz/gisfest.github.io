@@ -1,10 +1,11 @@
-import './App.css';
-import Page from '../src/components/ComingSoon/page.js';
+import './styles/App.css';
+import ComingSoonPage from './pages/ComingSoon';
+import React from 'react';
 
 function App() {
   return (
     <div className="main">
-     <Page />
+      <ComingSoonPage />
     </div>
   );
 }
