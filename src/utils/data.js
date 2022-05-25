@@ -1,8 +1,8 @@
 export const socialMediaLinks=[
     {
         "social":"Linkedin",
-        "url":"https://instagram.com/gisfest",
-        "handle":"gis_fest"
+        "url":"https://www.linkedin.com/in/gis-fest-352a3323b/",
+        "handle":"GIS Festival"
     },
     {
         "social":"Instagram",

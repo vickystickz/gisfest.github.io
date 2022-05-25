@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1.2rem;
+    padding:1.5rem;
+    height: 100vh;
 }
 
 a {
@@ -20,14 +21,14 @@ a {
 --------------------------------------------------------------*/
 
 .header {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .header h1{
-      font-size:2.3rem;  
+      font-size:2rem;  
 }
 .header p {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 5px;
     background: rgb(244,156,15);
     background: linear-gradient(90deg, rgba(244,156,15,1) 8%, rgba(201,31,100,1) 40%, rgba(201,31,100,1) 65%, rgba(8,79,65,1) 80%);
@@ -37,8 +38,9 @@ a {
 }
 
 .animation-text {
-    height: 50px;
+    height: 25px;
 }
+
 
 /*--------------------------------------------------------------
 # about_section
@@ -84,7 +86,7 @@ a {
     background-color: #fff;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    padding: 12px;
+    padding: 3px;
 }   
 
 
@@ -164,20 +166,6 @@ hr {
 }
 
 
-
-.brand-red{
-    background-color: var(--brand-red);
-
-}
-.brand-green{
-    background-color:  var(--brand-green);
-}
-.brand-yellow{
-    background-color: var(--brand-yellow);
-}
-.brand-purple{
-    background-color: var(--brand-purple) ;
-}
 
 
 
