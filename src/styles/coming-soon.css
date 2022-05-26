@@ -1,40 +1,36 @@
-
-
 .container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:1.5rem;
-    height: 100vh;
+    padding:1.3em;
+    height: 100%;
 }
 
-a {
-    display: flex;
-    flex-direction: row;
-    line-height: 1.5;
-    font-size: 15px;
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+
+.grid-container {
+    display: grid;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.header,
+.about_section,
+.contact_section {
+    margin-bottom:5rem; 
+} 
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
-.header {
-    margin-bottom: 15px;
-}
-
 .header h1{
-      font-size:2rem;  
-}
-.header p {
-    font-size: 13px;
-    margin-top: 5px;
-    background: rgb(244,156,15);
-    background: linear-gradient(90deg, rgba(244,156,15,1) 8%, rgba(201,31,100,1) 40%, rgba(201,31,100,1) 65%, rgba(8,79,65,1) 80%);
-    padding: 6px 13px;
-    border: 1px solid black;
-    border-radius: 5px;
+      font-size:1.8rem;  
 }
 
 .animation-text {
@@ -48,10 +44,8 @@ a {
 
 
 .about_section {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-    margin-bottom:83px;
 }
 
 .about_section-info {
@@ -75,7 +69,7 @@ a {
 
 
 .about_section-info p {
-    line-height: 30px;
+    line-height: 40px;
     font-size: 18px;
     padding: 0.4rem;
     display: block;
@@ -97,24 +91,25 @@ a {
 
 
 .contact_section {
-    display: grid;
     grid-template-columns: auto auto auto;
-    gap: 80px;
-    margin-bottom: 46px;
+    gap: 60px;
 }
 
 
 
-.contact_section_socialmedia a {
+
+.contact_section a {
+    flex-direction: row;
+    line-height: 1.5;
+    font-size: 13px;
+    color: aliceblue;
+    line-height: 2;
+}
+
+.contact_section_socialmedia a{
     margin:0 0.2rem;
- 
 }
 
-
-
-.socialmedia_links {
-    display: flex;
-}
 
 
 .contact_section h2 {
@@ -133,9 +128,8 @@ hr {
 
 .icon{
     width:42px;
-    height:1.5em;
+    height:1.7em;
     transition: all .3s ease;
-    padding-right: 4px;
 }
 
 .icon:hover {
@@ -149,21 +143,16 @@ hr {
 
 .footer_section {
     width: 100%;
-    height: 43px;
     text-align: center;
-    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    position:fixed;
+    bottom:0;
+    height: 40px;
+    background-color: rgb(70, 70, 70);
 }
 
-.footer_container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 8px;
-    margin-bottom: 14px;
-    background-color: #ffff;
-    padding:0 5px;
-   
-}
 
 
 
@@ -172,7 +161,7 @@ hr {
 /*--------------------------------------------------------------
 # Responsive_styling
 --------------------------------------------------------------*/
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .about_section {
         grid-template-columns: auto;
     }
@@ -198,5 +187,56 @@ hr {
     .about_section-info h2 {
        width: 100%
     }
+    .header,
+    .about_section,
+    .contact_section {
+    margin-bottom: 3.9rem; 
+    } 
+    .about_section-info p {
+        line-height: 30px;
+        font-size: 17px;
+    }
 }
 
+    @media (max-width: 550px) {
+        .header,
+        .about_section,
+        .contact_section {
+        margin-bottom: 3.5rem; 
+        } 
+
+    }
+
+    @media (max-width: 390px) {
+        .header,
+        .about_section,
+        .contact_section {
+        margin-bottom: 2.2rem; 
+        } 
+
+    }
+    @media (max-width: 375px) {
+        .header,
+        .about_section,
+        .contact_section {
+        margin-bottom: 2.4rem; 
+        } 
+
+    }
+
+
+    @media (max-width: 320px) {
+        .header {
+            margin-bottom: 2.3rem;
+        }
+        
+    .icon {
+        width:35px;
+        height:1.7em;
+    }
+
+    .contact_section_socialmedia a {
+        margin:0;
+        }
+
+}
