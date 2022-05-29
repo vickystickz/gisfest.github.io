@@ -55,7 +55,7 @@ const ComingSoonPage = () => {
               </div>
         </div>  
         <footer className='footer_section flex-container '>
-          <h3>&copy; Copyright <strong><span>GISfest Tech. Team {new Date().getFullYear()}</span></strong>. All Rights Reserved.</h3>
+          <h3>&copy; Copyright <strong><span>GISfest {new Date().getFullYear()}</span></strong>. All Rights Reserved.</h3>
         </footer>
       </div>
   
