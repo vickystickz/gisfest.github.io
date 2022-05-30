@@ -21,7 +21,7 @@ const ComingSoonPage = () => {
           <section className='about_section grid-container'>
               <div className='about_section-info'>
                 <h2>#GISfest 2022</h2>
-                <p>The GISfest is a conference bringing together Geospatial professionals and enthusiats to discuss Geospatial technologies and it's application in numerous industries.</p>
+                <p>The GISfest is a conference bringing together Geospatial professionals and enthusiasts to discuss Geospatial technologies and it's application in numerous industries.</p>
               </div>
               <div className='about_section-logo'>
                 <img src={logo} alt='gisfest_logo'/>
