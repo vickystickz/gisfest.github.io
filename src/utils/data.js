@@ -16,3 +16,25 @@ export const socialMediaLinks=[
     },
 
 ]
+
+export const TeamData = [
+    {
+    "team":"",
+    "emoji":"",
+    "members":[
+        {
+            "name":"",
+            "twitter":"",
+            "linkedin":""
+        },{
+            "name":"",
+            "twitter":"",
+            "linkedin":""
+        },{
+            "name":"",
+            "twitter":"",
+            "linkedin":""
+        }
+    ]
+} 
+]

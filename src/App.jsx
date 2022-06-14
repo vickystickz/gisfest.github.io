@@ -1,6 +1,9 @@
+/* eslint-disable import/no-unresolved */
+/* eslint-disable import/extensions */
+/* eslint-disable linebreak-style */
 import './styles/App.css';
-import ComingSoonPage from './pages/ComingSoon';
 import React from 'react';
+import ComingSoonPage from '@/pages/ComingSoon';
 
 function App() {
   return (
