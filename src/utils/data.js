@@ -24,6 +24,8 @@ import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.jpg';
 
 
 
+// Social media data 
+
 export const socialMediaLinks=[
     {
         "social":"Gmail",
@@ -53,6 +55,8 @@ export const socialMediaLinks=[
 
 ]
 
+// Page Navigation links for Header
+
 export const MenuItems=[
     {
        "title": "Home",
@@ -67,6 +71,7 @@ export const MenuItems=[
      
 ]
 
+// Page Navigation links for Footer
 
 export const footerMenuItems = [
     {
@@ -85,7 +90,10 @@ export const footerMenuItems = [
     }
 ]
 
+// All Team's data 
+
 export const teamData = [
+     // Logistics Team - (1 member)
         {
         "team":"Logistics",
         "emoji":logistics,
@@ -97,7 +105,9 @@ export const teamData = [
                 "img": akintola_mercy
             }
         ]
-    }, {
+    }, 
+     // Speakers engagement Team - (2 member)
+    {
         "team":"Speakers engagement",
         "emoji":speaker,
         "members":[
@@ -113,7 +123,9 @@ export const teamData = [
                 "img": fortune_emeka
             }
         ]
-    },{
+    },
+     // Invitation   Team - (1 member)
+    {
         "team":"Invitation & Registration",
         "emoji":inivitation,
         "members":[
@@ -124,7 +136,9 @@ export const teamData = [
                 "img": justice_obaje
             }
         ]
-    },{
+    },
+     // Fundraising and Sponsorship  Team - (1 member)
+    {
         "team":"Fundraising & Sponsorship",
         "emoji":funds,
         "members":[
@@ -135,7 +149,9 @@ export const teamData = [
                 "img": joseph_aro
             } 
         ]
-    },{
+    },
+       // Design and Tech. Team - (3 members)
+    {
         "team":"Design and Tech",
         "emoji":tech,
         "members":[
@@ -156,7 +172,9 @@ export const teamData = [
                 "img": oladejo_olasunkanmi
             }
         ]
-    },{
+    },
+       // Budget Team - (1 member)
+    {
         "team":"Budget",
         "emoji":budget,
         "members":[
@@ -167,7 +185,9 @@ export const teamData = [
                 "img": oluwadamilola_salua
             }
         ]
-    },{
+    },
+    // Media Team - (2 members)
+    {
         "team":"Media",
         "emoji":media,
         "members":[
