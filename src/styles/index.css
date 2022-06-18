@@ -55,3 +55,18 @@ ul {
 .flexbox {
   display: flex;
 }
+
+.page-content {
+  width: 80%;
+  margin: 40px auto;
+}
+
+@media screen and (max-width: 900px) {  
+  .page-content {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 550px)  {
+}

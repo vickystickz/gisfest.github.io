@@ -3,11 +3,3 @@
   scroll-behavior: smooth;
 }
 
-.pageheader-container{
-  background-color: var(--brand-green);
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  height: 179px;
-  color: #fff;
-}

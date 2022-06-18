@@ -112,4 +112,9 @@
 }
 
 
-
+@media screen and (max-width: 320px) { 
+     .Nav_logo,
+     .icon{
+        width: 70px;
+    }
+}
