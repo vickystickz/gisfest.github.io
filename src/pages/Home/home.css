@@ -11,7 +11,7 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: 100vh;
+    height: 100%;
     background-size: cover;
 }
 
@@ -21,7 +21,6 @@
     align-items: center;
     justify-content: center;
     padding-top: 7vh;
-    
 }
 
 .hero-info{
@@ -43,6 +42,7 @@ main{
 
 .main-about {
     width: 100%;
+
     text-align: center;
 }
 
@@ -99,12 +99,11 @@ main h1:nth-child(even){
       
     main p{
         font-size: 15px;
-        line-height: 25px;
-        letter-spacing: normal;
+        line-height: 28px;
     }
 
     .hero{ 
-        height: 90vh;
+        height: 55vh;
         background-position: center;
     }
 
