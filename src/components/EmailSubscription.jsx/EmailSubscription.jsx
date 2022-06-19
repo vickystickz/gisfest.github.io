@@ -20,6 +20,7 @@ const EmailSubscription = ( )=>{
         if (pattern.test(String(email).toLowerCase().trim())){
 
             subscribe({EMAIL:email});
+            setEmailAddress('');
 
         }else{
 
