@@ -1,0 +1,120 @@
+.navbar-container {
+    width: 100%;
+    height:80px;
+    background-color: #0B111A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: sticky;
+    transition: all .8s ease;
+    scroll-behavior: smooth;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+
+.navbar-links {
+    display: flex;
+    gap: 30px;
+    font-family: "Montserrat";
+    line-height: 45px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s ease-out;
+}
+
+.nav-btn {
+    padding: 10px;  
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0B111A;
+    background-color: var(--brand-yellow);
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    color: var(--brand-yellow);
+    background-color: var(--brand-green);
+}
+.nav-link:hover {
+    color: var(--brand-yellow);
+}
+
+.nav-link-active {
+    color: var(--brand-yellow);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Icon {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.nav-menu-mobile {
+    display: none;
+}
+
+
+/* Respnsiveness */
+
+@media screen and (max-width: 750px) {
+    .navbar-container {
+        padding: 0 5px;
+    }
+    .nav-menu-mobile {
+        display: inline-block;
+    }
+    .navbar-links {
+        width: 100%;
+        right: -110px;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        top: 80px;
+        opacity: 0;
+        transition: all .3s ease;
+    }
+    
+    .active-nav-menu {
+        background-color: #000;
+        right:0;
+        opacity: 1;
+        position: fixed;
+        z-index: 1;
+        padding-top: 40px;
+    }
+
+    .nav-link:hover, 
+    .nav-link-active:hover {
+        background-color: var(--brand-green);
+        padding: 15px 40px;
+        border-radius: 5px;
+
+    }
+
+    .nav-btn {
+        padding: 10px 30px;
+    }
+}
+
+
+@media screen and (max-width: 320px) { 
+     .Nav_logo,
+     .icon{
+        width: 70px;
+    }
+}
