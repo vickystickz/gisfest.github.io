@@ -1,15 +1,14 @@
 import React from 'react';
-import '../styles/Team.css';
-import { teamData } from '../utils/data';
-import TeamCard from '../components/TeamCard';
+import './Team.css';
+import { teamData } from '../../utils/data';
+import TeamCard from '../../components/TeamCard/TeamCard';
+import PageHeader from '../../components/PageHeader/PageHeader';
 
 
 const Team = () => {
   return (
-    <div className="main-content">
-        <div className='teamheader-container flexbox'>
-          <h2>Organizers</h2>
-        </div>
+    <div className="main-content" id="#top">
+        <PageHeader title={'Organizers'} />
         <div className='page-content'>
           {teamData.map((Team,index) => {
                 return (

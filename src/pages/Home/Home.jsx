@@ -1,46 +1,38 @@
 
 import React from "react";
-import './style.css';
+import EmailSubscription from "../../components/EmailSubscription.jsx/EmailSubscription";
+import './home.css';
 
 
 const HomePage = () =>{
     return(
             <div className="home-container">
-                <header>
+                <div className="hero" id="top">
                     <div className="hero-content">
                         <div>
-                            <img src="/assets/logo_colored.png"></img>
+                            <img src="/assets/logo_colored.png" alt="Background"></img>
                         </div>
                         <div className="hero-info">
-                            <h1>Long. X - Lat. Y, | November, 2022.</h1>
-                            <h1>Lagos, Nigeria.</h1>
+                            <h2>Long. X - Lat. Y, | November, 2022.</h2>
+                            <h2>Lagos, Nigeria.</h2>
                         </div>
                     </div>
-                </header>
+                </div>
 
-                {/*<main>
-                    <div>
-                    <h1>LEARN.</h1>
-                    <h1>NETWORK</h1>
-                    <h1>CHAT.</h1>
-                    </div>
+                <main>
+                    <aside>
+                        <h1>LEARN.</h1>
+                        <h1>NETWORK.</h1>
+                        <h1>Discover.</h1>
+                    </aside>
                     <div>
                         <p>GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries.
                         GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries
                         GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries</p>
                     </div>
                 </main>
-                <section>
-                <div>
-                <h3>Subscribe for event updates</h3>
-                <p>Join our mailing list to receive news and updates for GISFest events</p>
-                    <div>
-                        <input placeholder="Enter your email address..."></input>
-                        <button>Subscribe</button>
-                    </div>
-                    <span>Subscribed! We'll be in touch! Spread the word</span>
-                </div>
-                </section>*/}
+    
+                <EmailSubscription />
             </div>
     )
 }

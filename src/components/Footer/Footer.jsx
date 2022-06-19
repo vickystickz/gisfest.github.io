@@ -1,30 +1,29 @@
 import React from 'react'
-import '../styles/Footer.css';
-import { NavLink } from 'react-router-dom';
-import { footerMenuItems, socialMediaLinks } from '../utils/data';
-import logo_Black from '../media/icons/Logo_Black.svg';
-import Instagram from '../media/icons/Instagram.svg';
-import linkedin from '../media/icons/linkedin.svg';
-import youtube from '../media/icons/youtube.svg';
-import twitter from '../media/icons/twitter.svg';
-import gmail_logo from '../media/icons/gmail_logo.svg';
-
+import './Footer.css';
+import { footerMenuItems, socialMediaLinks } from '../../utils/data';
+import logo_Black from '../../media/icons/Logo_Black.svg';
+import Instagram from '../../media/icons/Instagram.svg';
+import linkedin from '../../media/icons/linkedin.svg';
+import youtube from '../../media/icons/youtube.svg';
+import twitter from '../../media/icons/twitter.svg';
+import gmail_logo from '../../media/icons/gmail_logo.svg';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
     <div className='footer-container'>
         <div className='brand-logo'>
-        <NavLink exact to="/">
+        <NavHashLink  to="/#top">
             <img src={logo_Black} alt='gisfest_logo_white'/>
-        </NavLink>
+        </NavHashLink>
         </div>
         <ul className='footer-links flexbox'>
         {footerMenuItems.map((item,index) => {
                 return (
                     <li key={index}>
-                        <NavLink exact to={item.url} className="footer-link">
+                        <NavHashLink smooth to={item.url} className="footer-link">
                         {item.title}
-                        </NavLink>
+                        </NavHashLink>
                         <span>{item.sign}</span>
                     </li>
                     

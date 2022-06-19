@@ -29,7 +29,7 @@ html {
   /* background: url("../media/images/background_image.jpg") top center no-repeat; */
   /* background-size: cover; */
   /* position: relative; */
-}
+
 /* body::before {
   content: "";
   position: absolute;
@@ -64,6 +64,7 @@ ul {
 
 .flexbox {
   display: flex;
+  justify-content: center;
 }
 
 .page-content {

@@ -67,7 +67,7 @@ export const MenuItems=[
         "title": "Team",
         "url": "/team",
         "cName": "nav-link"
-     }
+     },
      
 ]
 
@@ -76,17 +76,17 @@ export const MenuItems=[
 export const footerMenuItems = [
     {
         "title": "Home",
-        "url": "/",
+        "url": "/#top",
         "sign": "|"
     },  
     {
         "title": "Organizing Team",
-        "url": "/team",
+        "url": "/team/#top",
         "sign": "|"
      },
     {
         "title": "Subscribe",
-        "url": "#",
+        "url": "/#email-subscription",
     }
 ]
 

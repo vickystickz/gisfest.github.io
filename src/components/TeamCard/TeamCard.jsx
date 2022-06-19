@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/TeamCard.css';
-import linkedin from '../media/icons/linkedin.svg';
-import twitter from '../media/icons/twitter.svg';
+import './TeamCard.css';
+import linkedin from '../../media/icons/linkedin.svg';
+import twitter from '../../media/icons/twitter.svg';
 
 
 const TeamCard = (props) => {

@@ -1,8 +1,8 @@
-import '../styles/coming-soon.css';
+import './coming-soon.css';
 import logo from '../media/icons/Logo.svg';
 import TypeAnimation from 'react-type-animation';
 import { FaInstagram, FaTwitter,FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import { socialMediaLinks } from '../utils/data';
+import { socialMediaLinks } from '../../utils/data';
 import React from 'react';
 
 const ComingSoonPage = () => {
