@@ -1,12 +1,3 @@
-.card {
-    width: 263.37px;
-    height: 345px;
-}
-
-.card :nth-child(odd){
-    border: 20px solid var(--brand-yellow);
-}
-
 
 .team-member-container{
     text-align: center;

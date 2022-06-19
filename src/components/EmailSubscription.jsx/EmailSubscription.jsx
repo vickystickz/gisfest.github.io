@@ -45,7 +45,7 @@ const EmailSubscription = ( )=>{
 
         setTimeout(()=>{
             setMessage(null);
-        },3000);
+        },6000);
     }
 
     const handleEmailChange = (e) => setEmailAddress(e.target.value);
