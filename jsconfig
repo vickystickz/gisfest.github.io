@@ -14,4 +14,4 @@
       "forceConsistentCasingInFileNames": true
     },
     "include": ["src/**/*.jsx", "src/App.jsx", "src/index.jsx"],
-  }
+}
