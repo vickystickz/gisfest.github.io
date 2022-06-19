@@ -26,9 +26,7 @@ const HomePage = () =>{
                         <h1>Discover.</h1>
                     </aside>
                     <div>
-                        <p>GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries.
-                        GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries
-                        GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries</p>
+                        <p>GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries.</p>
                     </div>
                 </main>
     

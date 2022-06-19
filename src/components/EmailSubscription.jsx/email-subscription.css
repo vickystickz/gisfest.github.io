@@ -6,7 +6,7 @@ section {
     padding-bottom: 50px;
 }
 
-section h3,p{
+section h3{
     font-size: 18px;
 }
 
@@ -28,6 +28,8 @@ button{
     padding: 8px;
     cursor: pointer;
     font-size: 16px;
+    outline: none;
+    border: none;
 }
 
 
