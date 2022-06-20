@@ -6,17 +6,9 @@ import twitter from '../../media/icons/twitter.svg';
 
 
 const TeamCard = (props) => {
-
-
-    const cardFrame = {
-         width: '263.37px',
-         height: '345px',
-         border: `20px solid ${props.frame_color}`,
-    } 
-
   return (
     <div >
-        <div className='card' style={cardFrame}>
+        <div className='card'>
             <img src={props.img} alt={props.name} />
         </div>
         <div className='team-member-container'>

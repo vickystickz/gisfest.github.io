@@ -25,7 +25,6 @@ const Team = () => {
                                img ={member.img}
                                twitter_link ={member.twitter}
                                linkedin_link ={member.linkedin}
-                               frame_color ={member.frame}
                                />  
                           )
                         })}
