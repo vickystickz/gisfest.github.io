@@ -1,10 +1,10 @@
-
 import React, { useState } from "react";
 import "./email-subscription.css";
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 const BASE_URL = "https://gisfest.us11.list-manage.com/subscribe/post?u=aa3820248ae5099a48118feb1&id=ae2c181efa"
 
 const EmailSubscription = ( )=>{
+
 
     const [email,setEmailAddress] = useState('');
     const [message,setMessage] = useState(null);
@@ -51,7 +51,7 @@ const EmailSubscription = ( )=>{
     const handleEmailChange = (e) => setEmailAddress(e.target.value);
 
     return(
-        <section id="email-subscription">
+        <section id="email-subscription" >
             <div>
                 <h3>Subscribe for event updates</h3>
                 <p>Join our mailing list to receive news and updates for GISFest events</p>

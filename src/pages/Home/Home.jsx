@@ -1,10 +1,10 @@
-
 import React from "react";
 import EmailSubscription from "../../components/EmailSubscription.jsx/EmailSubscription";
 import './home.css';
 
 
 const HomePage = () =>{
+
     return(
             <div className="home-container">
                 <div className="hero" id="top">
@@ -25,7 +25,7 @@ const HomePage = () =>{
                         <h1>NETWORK.</h1>
                         <h1>Discover.</h1>
                     </aside>
-                    <div className="main-about">
+                    <div className="main-about"> 
                         <p>GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries.</p>
                     </div>
                 </main>

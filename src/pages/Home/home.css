@@ -40,15 +40,8 @@ main{
     padding-bottom: 65px;
 }
 
-.main-about {
-    width: 100%;
-
-    text-align: center;
-}
-
 main p{
     font-size: 15px;
-    line-height: 22px;
     margin-top:40px;
     text-align: justify;
 }
@@ -99,13 +92,14 @@ main h1:nth-child(even){
       
     main p{
         font-size: 15px;
-        line-height: 28px;
+        line-height: 30px;
     }
 
     .hero{ 
         height: 55vh;
         background-position: center;
     }
+
 
 }
 
@@ -119,10 +113,12 @@ main h1:nth-child(even){
     }
 
     
+    .main-about {
+        width:420px;
+    }
     main p{
         font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
+        line-height: 35px;
     }
 
 
