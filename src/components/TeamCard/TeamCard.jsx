@@ -4,9 +4,10 @@ import linkedin from '../../media/icons/linkedin.svg';
 import twitter from '../../media/icons/twitter.svg';
 
 
+
 const TeamCard = (props) => {
   return (
-    <div>
+    <div >
         <div className='card'>
             <img src={props.img} alt={props.name} />
         </div>

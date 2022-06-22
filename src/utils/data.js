@@ -10,17 +10,17 @@ import budget from '../media/icons/emoji/budget.svg';
 
 
 /// import team pictures
-import ademoyero from '../media/images/team/ademoyero_victor.jpg';
-import akintola_mercy from '../media/images/team/akintola_mercy.jpg';
-import akintola_omowonuola from '../media/images/team/akintola_omowonuola.jpg';
-import emmanuel_jolaiya from '../media/images/team/emmanuel_jolaiya.jpg';
-import fortune_emeka from '../media/images/team/fortune_emeka.jpg';
-import joseph_aro from '../media/images/team/joseph_aro.jpeg';
-import juwon_ishola from '../media/images/team/juwon_ishola.jpg';
-import oladejo_olasunkanmi from '../media/images/team/oladejo_olasunkanmi.jpg';
-import justice_obaje from '../media/images/team/justice_obaje.jpg';
-import shehu_muhammed from '../media/images/team/shehu_muhammed.jpg';
-import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.jpg';
+import ademoyero from '../media/images/team/ademoyero_victor.webp';
+import akintola_mercy from '../media/images/team/akintola_mercy.webp';
+import akintola_omowonuola from '../media/images/team/akintola_omowonuola.webp';
+import emmanuel_jolaiya from '../media/images/team/emmanuel_jolaiya.webp';
+import fortune_emeka from '../media/images/team/fortune_emeka.webp';
+import joseph_aro from '../media/images/team/joseph_aro.webp';
+import juwon_ishola from '../media/images/team/juwon_ishola.webp';
+import oladejo_olasunkanmi from '../media/images/team/oladejo_olasunkanmi.webp';
+import justice_obaje from '../media/images/team/justice_obaje.webp';
+import shehu_muhammed from '../media/images/team/shehu_muhammed.webp';
+import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 
 
 
@@ -67,7 +67,7 @@ export const MenuItems=[
         "title": "Team",
         "url": "/team",
         "cName": "nav-link"
-     },
+     }
      
 ]
 
@@ -76,17 +76,17 @@ export const MenuItems=[
 export const footerMenuItems = [
     {
         "title": "Home",
-        "url": "/#top",
+        "url": "/",
         "sign": "|"
     },  
     {
         "title": "Organizing Team",
-        "url": "/team/#top",
+        "url": "/team",
         "sign": "|"
      },
     {
         "title": "Subscribe",
-        "url": "/#email-subscription",
+        "url": "#",
     }
 ]
 

@@ -8,7 +8,7 @@ import PageHeader from '../../components/PageHeader/PageHeader';
 const Team = () => {
   return (
     <div className="main-content" id="#top">
-        <PageHeader title={'Organizers'} />
+        <PageHeader title={'Organizers'} color={'#084f41'} />
         <div className='page-content'>
           {teamData.map((Team,index) => {
                 return (
