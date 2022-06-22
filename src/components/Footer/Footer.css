@@ -23,6 +23,8 @@
 .footer-links {
     gap: 20px;
     font-weight: 400;
+    flex-direction: var(--footer-flex-direction);
+    align-items: var(--footer-align-items);
 } 
 
 .footer-link {
@@ -35,6 +37,7 @@
 li span {
     color: #fff;
     margin-left: 20px;
+    display:var(--footer-li-span);
 }
 
 .socialmedia-links {
@@ -43,14 +46,3 @@ li span {
 .socialmedia-link {
     color: #fff;
 }
-
-@media screen and (max-width: 750px) {
-    li span {
-        display: none;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-    }
- }

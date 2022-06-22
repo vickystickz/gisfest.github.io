@@ -7,7 +7,11 @@
   --brand-green:#084f41;
   --brand-yellow:#f49c0f;
   --brand-purple:#62156f;
-  --background-white: #f2f2f2; 
+  --background-white: #f2f2f2;
+
+
+  /* FOOTER STYLES  */
+  
 }
 
 
@@ -20,28 +24,6 @@
 html {
   scroll-behavior: smooth;
 }
-
-
-/**** for Comming soon page  ****/
-/* body {
-  font-family: 'Montserrat', sans-serif;
-
-  /* background: url("../media/images/background_image.jpg") top center no-repeat; */
-  /* background-size: cover; */
-  /* position: relative; */
-
-/* body::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(49, 48, 48, 0.8);
-  min-height:100vh;
-} */
-
-
 
 body {
   width: 100%;
@@ -72,12 +54,24 @@ ul {
   margin: 40px auto;
 }
 
+
+
 @media screen and (max-width: 900px) {  
   .page-content {
     width: 90%;
   }
-
 }
 
 @media screen and (max-width: 550px)  {
+}
+
+
+@media screen and (max-width: 750px){
+  :root{
+
+    /* Footer styling  */
+    --footer-li-span:none;
+    --footer-flex-direction:column;
+    --footer-align-items:center;
+  }
 }
