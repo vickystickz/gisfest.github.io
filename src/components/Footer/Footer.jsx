@@ -7,6 +7,7 @@ import linkedin from '../../media/icons/linkedin.svg';
 import youtube from '../../media/icons/youtube.svg';
 import twitter from '../../media/icons/twitter.svg';
 import gmail_logo from '../../media/icons/gmail_logo.svg';
+import github from '../../media/icons/Github.svg';
 import { NavHashLink } from 'react-router-hash-link';
 
 const Footer = () => {
@@ -40,9 +41,9 @@ const Footer = () => {
                 {social==='Twitter'&&<img src={twitter} alt="twitter"/>}
                 {social==='Instagram'&&<img src={Instagram} alt="instagram"/>}
                 {social==='Linkedin'&&<img src={linkedin} alt="linkedin"/>}
+                {social==='Github'&&<img src={github} alt="github"/>}
                 </a>
                 )
-                
             })
             }
         </div>
