@@ -14,7 +14,7 @@ jobs:
         run: |
           yarn install
           node scripts/sitemap-generator
-          yarn build
+          yarn predeploy
           
         env:
           REACT_APP_GOOGLE_ANALYTICS: ${{ secrets.REACT_APP_GOOGLE_ANALYTICS }}
