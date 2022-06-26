@@ -13,7 +13,6 @@ jobs:
       - name: Generate Sitemap
         run: |
           node scripts/sitemap-generator
-        uses: actions/setup-node@v3
         
       - name: Install and Build 🔧
         run: |
