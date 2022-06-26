@@ -25,7 +25,7 @@ const handleDropdownClick = () =>{
                     { FAQ.id === id ? <FaAngleUp className='icon' /> : <FaAngleDown className="icon" />}
                    </div>
               </div>
-              <div className={click === FAQ.id ? "active answer-content" : "answer-content"}>
+              <div className={click === FAQ.id ? "active-answer answer-content" : "answer-content"}>
                   <p>{FAQ.Answer}</p>
               </div>
               </div>  

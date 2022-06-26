@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+  import React, { useState } from 'react';
 import './Schedule.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import { agendaData, speakerData } from '../../utils/data';
@@ -15,7 +15,7 @@ const Schedule = () => {
               <div className='flexbox navigation'>
               {types.map((type,index) => {
                 return (
-               <div key={index} onClick={() => setActive(type)} className={active === type ? "button active" : "button"}>{type}</div>
+               <div key={index} onClick={() => setActive(type)} className={active === type ? "button active-button" : "button"}>{type}</div>
                )
               })}
                </div>
