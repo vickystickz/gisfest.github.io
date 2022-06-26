@@ -1,6 +1,6 @@
 const fs = require("fs");
 const globby = require("globby");
-
+const prettier= require("prettier");
 (async () => {
 
   const pages = await globby([
@@ -30,10 +30,9 @@ const globby = require("globby");
         </urlset>
     `;
 
-  // const formatted = prettier.format(sitemap, {
-  //   ...prettierConfig,
-  //   parser: "html"
-  // });
+  const formatted = prettier.format(sitemap, {
+    parser: "html"
+  });
 
-  fs.writeFileSync("public/sitemap.xml", sitemap);
+  fs.writeFileSync("public/sitemap.xml", formatted);
 })();
