@@ -7,16 +7,8 @@
   --brand-green:#084f41;
   --brand-yellow:#f49c0f;
   --brand-purple:#62156f;
-<<<<<<< HEAD
-  --background-white: #f2f2f2;
-
-
-  /* FOOTER STYLES  */
-  
-=======
   --background-white: #f2f2f2; 
   --background-black: #0B111A;
->>>>>>> refs/remotes/origin/v2.0
 }
 
 
@@ -30,8 +22,6 @@ html {
   scroll-behavior: smooth;
 }
 
-<<<<<<< HEAD
-=======
 
 /**** for Comming soon page  ****/
 /* body {
@@ -54,7 +44,6 @@ body::before {
 
 
 
->>>>>>> refs/remotes/origin/v2.0
 body {
   width: 100%;
   height: 100vh;
@@ -93,18 +82,4 @@ ul {
 }
 
 @media screen and (max-width: 550px)  {
-<<<<<<< HEAD
-}
-
-
-@media screen and (max-width: 750px){
-  :root{
-
-    /* Footer styling  */
-    --footer-li-span:none;
-    --footer-flex-direction:column;
-    --footer-align-items:center;
-  }
-=======
->>>>>>> refs/remotes/origin/v2.0
 }
