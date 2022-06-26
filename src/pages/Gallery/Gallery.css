@@ -1,0 +1,5 @@
+.gallery-conatiner {
+    grid-template-columns: var(--gallery-container-grid-template-columns);
+    gap: 20px;
+}
+
