@@ -1,6 +1,6 @@
 import './styles/App.css';
 import Header from './components/Header/Header';
-import React from 'react';
+import React ,{useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/Home/Home';
 import Team from './pages/Team/Team';
@@ -10,9 +10,13 @@ import FAQS from './pages/FAQS/FAQS';
 import Travel from './pages/Travel/Travel';
 import Schedule from './pages/Schedule/Schedule';
 
+import ReactGA from 'react-ga';
 
 function App() {
-  
+  useEffect(()=>{
+    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
+    ReactGA.pageview(window.location.pathname);
+},[])
   return (
     <div className="main">
       <Router>

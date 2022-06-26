@@ -1,12 +1,16 @@
 import React from "react";
 import EmailSubscription from "../../components/EmailSubscription.jsx/EmailSubscription";
 import './home.css';
+import SEO from '../SEO';
 
 
 const HomePage = () =>{
 
+
+
     return(
             <div className="home-container">
+            <SEO title={'GIS Festival 2022'} url={'https://gisfest.org'}/>
                 <div className="hero" id="top">
                     <div className="hero-content">
                         <div>

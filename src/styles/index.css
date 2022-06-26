@@ -7,56 +7,8 @@
   --brand-green:#084f41;
   --brand-yellow:#f49c0f;
   --brand-purple:#62156f;
-  --background-white: #f2f2f2;
-
-
-  /* FOOTER STYLES  */
-  
   --background-white: #f2f2f2; 
   --background-black: #0B111A;
-
-  /* Header Styling */
-
-  --nav-menu-mobile-display: none;
-  --nav-btn-padding: 10px;
-  --nav-link-hover-background-color:none;
-
-
-
-
-  --team-name-gap: 15px;
-  --team-name-line-height: 40px;
-
-  --team-title-font-size: 32px;
-  --team-member-card-gap: 80px;
-
-
-
-
-  /* Home Styling */
-  --hero-info-width: 60%;
-  --hero-info-h2-font-size:1.5em;
-  --hero-height: 100vh;
-  --hero-background-position: none;
-
-  --home-main-p-font-size: 20px;
-  --home-main-p-line-height: 35px; 
-
-
-   /* Gallery */
-
-   --gallery-container-grid-template-columns: 1fr 1fr;
-
-
-
-     /* Schedule */
-     --button-padding: 20px;
-     --button-font-size:20px;
-
-
-     --agenda-time-padding: 20px;
-     --agenda-time-width: 12%;
-     --agenda-time-font-size: 17px;
 }
 
 
@@ -69,6 +21,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/**** for Comming soon page  ****/
+/* body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  background: url("../media/images/background_image.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(49, 48, 48, 0.8);
+  min-height:100vh;
+} */
+
 
 
 body {
@@ -167,92 +140,5 @@ ul {
     }
 }
 
-
-
-@media screen and (max-width: 320px)  {
-  :root{
-  --nav-logo-width: 70px; 
-  --nav-icon-width: 70px;
-  }
+@media screen and (max-width: 550px)  {
 }
-
-
-
-
-
-@media screen and (max-width: 817px){
-  :root{
-
-    /* Footer styling  */
-    --footer-li-span:none;
-    --footer-flex-direction:column;
-    --footer-align-items:center;
-
-
-    /* Header styling */
-    --navbar-container-padding:0 5px;
-    --nav-menu-mobile-display:inline-block;
-    --navbar-links-width: 100%;
-    --navbar-links-right:-110px;
-    --navbar-links-text-align:center;
-    --navbar-links-min-height:100vh;
-    --navbar-links-display:flex;
-    --navbar-links-flex-direction:column;
-    --navbar-links-top:80px;
-    --navbar-links-opacity:0;
-    --navbar-links-transition:all .1s ease;
-    --navbar-links-z-index:10000;
-    --nav-link-hover-background-color:var(--brand-green);
-    --navbar-link-visibilty: hidden;
-
-    --active-nav-menu-background-color:#000;
-    --active-nav-menu-right:0;
-    --active-nav-menu-opacity:1;
-    --active-nav-menu-position:fixed;
-    --active-nav-menu-z-index:1;
-    --active-nav-menu-padding-top:40px;
-
-    --nav-link-hover-padding:15px 40px;
-    --nav-link-hover-border-radius: 5px;
-
-    --nav-btn-padding:10px 30px; 
-
-    --nav-menu-mobile:inline-block;
-    --icon-width:70px;
-
-
-
-    /* Schedule styling */
-    --agenda-time-padding: 19px;
-    --agenda-time-width: 28%;
-    --speaker-container-flex-direction: column;
-    --speaker-container-gap: 10px;
-
-}
-
-}
-
-
-  @media screen and (min-width:750px) {
-    :root {
-         /* Home styling */
-      --main-about-width:710px;
-      --main-p-font-size: 20px;
-      --main-line-height:35px;
-
-      --main-grid-template-columns: 1fr 1fr;
-      --main-gap:10px;
-      
-      --main-p-font-size: 20px;
-      --main-h1-font-size:40px;
-      --main-p-line-height: 35px;
-    }
-
-}
-
-
-  @media screen and (max-width: 968px)  {
-    :root{
-    --team-member-card-gap:45px;
-    }
-  }
