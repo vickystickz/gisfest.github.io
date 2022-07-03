@@ -1,65 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,600;1,200;1,300&display=swap');
 
 
-
-:root{
-  --brand-red:#c91f64;
-  --brand-green:#084f41;
-  --brand-yellow:#f49c0f;
-  --brand-purple:#62156f;
-  --background-white: #f2f2f2;
-
-
-  /* FOOTER STYLES  */
-  
-  --background-white: #f2f2f2; 
-  --background-black: #0B111A;
-
-  /* Header Styling */
-
-  --nav-menu-mobile-display: none;
-  --nav-btn-padding: 10px;
-  --nav-link-hover-background-color:none;
-
-
-
-
-  --team-name-gap: 15px;
-  --team-name-line-height: 40px;
-
-  --team-title-font-size: 32px;
-  --team-member-card-gap: 80px;
-
-
-
-
-  /* Home Styling */
-  --hero-info-width: 60%;
-  --hero-info-h2-font-size:1.5em;
-  --hero-height: 100vh;
-  --hero-background-position: none;
-
-  --home-main-p-font-size: 20px;
-  --home-main-p-line-height: 35px; 
-
-
-   /* Gallery */
-
-   --gallery-container-grid-template-columns: 1fr 1fr;
-
-
-
-     /* Schedule */
-     --button-padding: 20px;
-     --button-font-size:20px;
-
-
-     --agenda-time-padding: 20px;
-     --agenda-time-width: 12%;
-     --agenda-time-font-size: 17px;
-}
-
-
 * { 
   padding: 0;
   margin: 0;
@@ -104,6 +45,75 @@ ul {
 
 
 
+
+
+:root{
+  --brand-red:#c91f64;
+  --brand-green:#084f41;
+  --brand-yellow:#f49c0f;
+  --brand-purple:#62156f;
+  --background-white: #f2f2f2;
+
+
+  /* FOOTER STYLES  */
+  
+  --background-white: #f2f2f2; 
+  --background-black: #0B111A;
+
+  /* Header Styling */
+
+  --nav-menu-mobile-display: none;
+  --nav-btn-padding: 10px;
+  --nav-link-hover-background-color:none;
+
+
+   /* Team Styling */
+
+  --team-name-gap: 15px;
+  --team-name-line-height: 40px;
+
+  --team-title-font-size: 32px;
+  --team-member-card-gap: 80px;
+
+
+
+
+    /* Home Styling */
+
+  --hero-info-width: 60%;
+  --hero-info-h2-font-size:1.5em;
+  --hero-height: 100vh;
+  --hero-background-position: none;
+
+  --home-main-p-font-size: 20px;
+  --home-main-p-line-height: 35px; 
+
+
+    /* Gallery */
+   --gallery-container-grid-template-columns: 1fr 1fr;
+
+
+
+      /* Schedule */
+     --button-padding: 20px;
+     --button-font-size:20px;
+
+
+     --agenda-time-padding: 20px;
+     --agenda-time-width: 12%;
+     --agenda-time-font-size: 17px;
+
+
+    /* Callforpaper page styling */
+     --columnn-2-grid-template-columns: 70% 30%;
+     --poster-deadline-height: 330px;
+    --poster-deadline-width:90%;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {  
   .page-content {
     width: 90%;
@@ -113,6 +123,7 @@ ul {
     --team-member-card-flex-direction:column;
   }
 }
+
 
 
 
@@ -150,6 +161,11 @@ ul {
 
   }
 }
+
+
+
+
+
 @media screen and (max-width: 550px) {  
   :root{
       /* Team Component styling */
@@ -164,20 +180,20 @@ ul {
 
       --main-grid-template-columns: 1fr;
 
+       /* Callforpaper page styling */
+       --columnn-2-grid-template-columns: auto;
+       --poster-deadline-height: 250px;
+
     }
 }
 
 
-
 @media screen and (max-width: 320px)  {
   :root{
-  --nav-logo-width: 70px; 
+  --nav-logo-width: 110px; 
   --nav-icon-width: 70px;
   }
 }
-
-
-
 
 
 @media screen and (max-width: 817px){
@@ -222,15 +238,20 @@ ul {
 
 
 
+
     /* Schedule styling */
     --agenda-time-padding: 19px;
     --agenda-time-width: 28%;
     --speaker-container-flex-direction: column;
     --speaker-container-gap: 10px;
 
+
+    --columnn-2-grid-template-columns: auto;
+
 }
 
 }
+
 
 
   @media screen and (min-width:750px) {
