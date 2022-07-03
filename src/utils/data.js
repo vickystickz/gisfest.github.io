@@ -91,6 +91,11 @@ export const MenuItems=[
         "title": "FAQS",
         "url": "/FAQS",
         "cName": "nav-link"
+     },
+     {  
+        "title": "Call for Paper",
+        "url": "/CallForPaper",
+        "cName": "nav-link"
      }
        
 ]

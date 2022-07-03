@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery/Gallery';
 import FAQS from './pages/FAQS/FAQS';
 import Travel from './pages/Travel/Travel';
 import Schedule from './pages/Schedule/Schedule';
+import CallForPaper from './pages/Call_for_paper/CallForPaper';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/travel" element={<Travel />}/>
           <Route path="/FAQS" element={<FAQS />}/>
+          <Route path="/CallForPaper" element={<CallForPaper />}/>
           <Route path="/schedule" element={<Schedule />}/>
         </Routes>
         <Footer />
