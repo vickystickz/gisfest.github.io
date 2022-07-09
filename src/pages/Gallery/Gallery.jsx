@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './Gallery.css';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import pic_1 from "../../media/images/gallery/Rectangle_36.jpg"
@@ -17,7 +17,7 @@ const Gallery = () => {
   return (
     <div className="main-content" id="#top">
         <PageHeader title={'Gallery'} color={'#084f41'} />
-        <div className='gallery-conatiner page-content grid-container'>
+        <div className='gallery-conatiner  grid-container'>
             <div>
                 <img src={pic_1} alt="gallery one" />
             </div>

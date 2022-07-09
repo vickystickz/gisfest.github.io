@@ -1,13 +1,21 @@
-import React from "react";
+import React, {useEffect } from "react";
 import EmailSubscription from "../../components/EmailSubscription.jsx/EmailSubscription";
 import './home.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const HomePage = () =>{
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
+
     return(
             <div className="home-container">
-                <div className="hero" id="top">
+                <div className="hero"   id="top">
                     <div className="hero-content">
                         <div>
                             <img src="/assets/logo_colored.png" alt="Background"></img>
