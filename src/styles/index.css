@@ -17,6 +17,8 @@ body {
   height: 100vh;
   font-family: "Montserrat";
   background-color: var(--background-white) ;
+  scroll-behavior: smooth;
+
 }
 
 a {
@@ -39,7 +41,7 @@ ul {
 
 
 .page-content {
-  width: 90%;
+  width: 80%;
   margin: 40px auto;
 }
 
@@ -127,7 +129,6 @@ ul {
 
 
 
-
 @media screen and (max-width: 501px)  {
     :root{
       --main-p-font-size: 20px;
@@ -188,9 +189,9 @@ ul {
 }
 
 
-@media screen and (max-width: 320px)  {
+@media screen and (max-width: 330px)  {
   :root{
-  --nav-logo-width: 110px; 
+  --nav-logo-width: 10%; 
   --nav-icon-width: 70px;
   }
 }
@@ -215,11 +216,11 @@ ul {
     --navbar-links-display:flex;
     --navbar-links-flex-direction:column;
     --navbar-links-top:80px;
-    --navbar-links-opacity:0;
+    --navbar-links-visibility: hidden;
     --navbar-links-transition:all .1s ease;
     --navbar-links-z-index:10000;
     --nav-link-hover-background-color:var(--brand-green);
-    --navbar-link-visibilty: hidden;
+    --navbar-links-opacity: 0;
 
     --active-nav-menu-background-color:#000;
     --active-nav-menu-right:0;
@@ -235,7 +236,6 @@ ul {
 
     --nav-menu-mobile:inline-block;
     --icon-width:70px;
-
 
 
 

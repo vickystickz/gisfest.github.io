@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 40px;
+    padding: 0 20px;
     position: sticky;
     transition: all .8s ease;
     scroll-behavior: smooth;
@@ -19,7 +19,7 @@
 
 .navbar-links {
     display: flex;
-    gap: 30px;
+    gap: 22px;
     font-family: "Montserrat";
     line-height: 45px;
     width: var(--navbar-links-width);
@@ -28,8 +28,8 @@
     min-height: var(--navbar-links-min-height);
     flex-direction: var(--navbar-links-flex-direction);
     top: var(--navbar-links-top);
+    visibility: var(--navbar-links-visibility);
     opacity: var(--navbar-links-opacity);
-    /* visibility: var(--navbar-link-visibilty); */
     transition: var(--navbar-links-transition);
     z-index: var(--navbar-links-z-index);
 }
@@ -70,7 +70,6 @@
     font-weight: 400;
     padding: var(--nav-link-hover-padding);
     border-radius: var(--nav-link-hover-border-radius);
-    /* visibility: visible; */
 }
 
 .Icon {
@@ -82,6 +81,10 @@
 
 .Nav_logo {
     width: var(--nav-logo-width);
+}
+
+.Nav_logo img {
+    width: 130px;
 }
 
 .icon {
@@ -96,6 +99,7 @@
     background-color: var(--active-nav-menu-background-color);
     right: var(--active-nav-menu-right);
     opacity: var(--active-nav-menu-opacity);
+    visibility: visible;
     position: var(--active-nav-menu-position);
     z-index: var(--active-nav-menu-z-index);
     padding-top: var(--active-nav-menu-padding-top);
