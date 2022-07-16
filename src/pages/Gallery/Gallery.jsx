@@ -17,35 +17,35 @@ const Gallery = () => {
   return (
     <div className="main-content" id="#top">
         <PageHeader title={'Gallery'} color={'#084f41'} />
-        <div className='gallery-conatiner  grid-container'>
-            <div>
+        <div className='gallery-conatiner page-content  grid-container'>
+            <div className='picture'>
                 <img src={pic_1} alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_2}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_3}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_4}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_5}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_6}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_7}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_8}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_9}  alt="gallery one" />
             </div>
-            <div>
+            <div className='picture'>
                 <img src={pic_10}  alt="gallery one" />
             </div>
         </div>
