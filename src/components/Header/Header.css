@@ -19,7 +19,7 @@
 
 .navbar-links {
     display: flex;
-    gap: 22px;
+    gap: 24px;
     font-family: "Montserrat";
     line-height: 45px;
     width: var(--navbar-links-width);
