@@ -1,0 +1,40 @@
+.FAQ-container {
+    border-radius: 5px;
+    margin: 40px 0;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+}
+
+.question-content {
+    justify-content: space-between;
+    padding: 25px;
+    width: 100%;
+}
+
+.answer-content {
+    padding: 25px;
+    width: 100%;
+    line-height: 25px;
+    display: none;
+    border-top: 1px solid rgb(128, 127, 127) ;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    
+}
+
+.icon {
+    width: 20px;
+    height: 22px;
+    color: black;
+}
+
+
+.active-answer {
+    display: block;
+}
+
