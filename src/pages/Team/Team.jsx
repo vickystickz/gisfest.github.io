@@ -9,7 +9,7 @@ const Team = () => {
   return (
     <div className="main-content" id="#top">
     <SEO title={'GIS Festival 2022 | Organizing Team'} url={'https://gisfest.org/team'}/>
-        <PageHeader title={'Organizers'} color={'#084f41'} />
+        <PageHeader title={'Organizing Team'} color={'#084f41'} />
         <div className='page-content'>
           {teamData.map((Team,index) => {
                 return (

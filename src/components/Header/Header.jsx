@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Header.css';
 import { MenuItems } from '../../utils/data';
 import logo_Black from '../../media/icons/Logo_Black.svg';
@@ -19,7 +19,10 @@ const Header = () => {
       }
     }
 
-    window.addEventListener("scroll", fixHeaderOnScroll);
+    useEffect(()=>{
+      window.addEventListener("scroll", fixHeaderOnScroll);
+    },[fixHeader])
+   
   
     const handleClick = () =>setClick(!click);
 
@@ -32,7 +35,7 @@ const Header = () => {
             {MenuItems.map((item,index) => {
                 return (
                     <li key={index}>
-                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isactive }) => isactive ? "nav-link-active" : `${item.cName}`}>
+                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
                         {item.title}
                         </NavLink>  
                     </li>

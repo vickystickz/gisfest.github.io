@@ -25,6 +25,10 @@ const SEO = ({title,url})=>{
             <meta name="twitter:image:alt" content="GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries." />
             <meta property="twitter:description" content="GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries."></meta>
             <meta property="twitter:image" content="https://gisfest.org/assets/og-image.png"></meta>
+
+            {/*Global site tag (gtag.js) - Google Analytics*/}
+
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3M4L6S7Z2"></script>
         </Helmet>
     )
 }

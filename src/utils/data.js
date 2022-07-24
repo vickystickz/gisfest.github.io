@@ -85,7 +85,7 @@ export const MenuItems=[
     //  },
      {
         "title": "FAQS",
-        "url": "/FAQS#top",
+        "url": "/faqs#top",
         "cName": "nav-link"
      },
     //  {  
@@ -137,7 +137,7 @@ export const footerMenuItems = [
     //  },
      {
         "title": "FAQS",
-        "url": "/FAQS#top"
+        "url": "/faqs#top"
      },
 ]
 
