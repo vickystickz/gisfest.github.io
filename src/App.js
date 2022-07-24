@@ -5,11 +5,11 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/Home/Home';
 import Team from './pages/Team/Team';
 import Footer from './components/Footer/Footer';
-import Gallery from './pages/Gallery/Gallery';
+// import Gallery from './pages/Gallery/Gallery';
 import FAQS from './pages/FAQS/FAQS';
-import Travel from './pages/Travel/Travel';
-import Schedule from './pages/Schedule/Schedule';
-import CallForPaper from './pages/Call_for_paper/CallForPaper';
+// import Travel from './pages/Travel/Travel';
+// import Schedule from './pages/Schedule/Schedule';
+// import CallForPaper from './pages/Call_for_paper/CallForPaper';
 
 import ReactGA from 'react-ga';
 
