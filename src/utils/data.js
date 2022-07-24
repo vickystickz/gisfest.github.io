@@ -59,7 +59,7 @@ export const socialMediaLinks=[
 export const MenuItems=[
     {
        "title": "Home",
-       "url": "/",
+       "url": "/#top",
        "cName": "nav-link"
     },
     // {
@@ -85,7 +85,7 @@ export const MenuItems=[
     //  },
      {
         "title": "FAQS",
-        "url": "/FAQS",
+        "url": "/FAQS#top",
         "cName": "nav-link"
      },
     //  {  
@@ -95,7 +95,7 @@ export const MenuItems=[
     //  },
      {
         "title": "Team",
-        "url": "/team",
+        "url": "/team#top",
         "cName": "nav-link"
      },
        
@@ -112,7 +112,7 @@ export const footerMenuItems = [
      },
      {
         "title": "Organizing Team",
-        "url": "/team",
+        "url": "/team#top",
         "sign": "|"
      },
     //  {
@@ -137,7 +137,7 @@ export const footerMenuItems = [
     //  },
      {
         "title": "FAQS",
-        "url": "/FAQS"
+        "url": "/FAQS#top"
      },
 ]
 
