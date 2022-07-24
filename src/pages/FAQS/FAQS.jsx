@@ -4,6 +4,9 @@ import PageHeader from '../../components/PageHeader/PageHeader';
 import {FAQData } from '../../utils/data';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 import SEO from '../SEO';
+
+
+
 const FAQS = () => {
    const [click, setClick] = useState(false);
 

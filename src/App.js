@@ -25,11 +25,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<HomePage />}/>
           <Route path="/team" element={<Team />}/>
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="/travel" element={<Travel />}/>
+          {/* <Route path="/gallery" element={<Gallery/>}/>*/}
+          {/*<Route path="/travel" element={<Travel />}/>*/}
           <Route path="/FAQS" element={<FAQS />}/>
-          <Route path="/CallForPaper" element={<CallForPaper />}/>
-          <Route path="/schedule" element={<Schedule />}/>
+          {/*<Route path="/CallForPaper" element={<CallForPaper />}/>*/}
+          {/*<Route path="/schedule" element={<Schedule />}/>*/}
         </Routes>
         <Footer />
       </Router>

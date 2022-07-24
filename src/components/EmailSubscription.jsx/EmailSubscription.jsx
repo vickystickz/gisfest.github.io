@@ -28,13 +28,10 @@ const EmailSubscription = ( )=>{
             setEmailAddress('');
         }
 
-       
-        
+    
         if(status === "success"){
-            
             setMessage("Subscribed! We'll be in touch.");
             setEmailAddress('');
-
         }else if(status === "error"){
             
             setMessage("Oops! An error occured, please try again.");
@@ -55,9 +52,9 @@ const EmailSubscription = ( )=>{
         <section id="email-subscription" >
             <div>
                 <h3>Subscribe for event updates</h3>
-                <p>Join our mailing list to receive news and updates for GISFest events</p>
+                <p>Registration will open soon. In the meantime, join our mailing list to receive news and updates for GISFest events</p>
                     <div>
-                        <MailchimpSubscribe
+                        {/*<MailchimpSubscribe
                             url={BASE_URL}
                             render={({subscribe,status})=>(
                                 <form onSubmit={(e)=>handleEmailSubscription(e,status,subscribe)}>
@@ -66,7 +63,8 @@ const EmailSubscription = ( )=>{
                                     {message && <><br></br><br></br><span>{message}</span></>}
                                 </form>)
                             }
-                        />
+                        />*/}
+                        <button type="submit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link" target={'blank_'}>Subscribe ➚</a></button>
                     </div>
             </div>
         </section>
@@ -74,3 +72,7 @@ const EmailSubscription = ( )=>{
 }
 
 export default EmailSubscription;
+// https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link
+
+
+// <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?embedded=true" width="640" height="674" frameBorder="0" marginHeight="0" marginWidth="0" title="Google">Loading…</iframe>

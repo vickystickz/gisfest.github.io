@@ -125,6 +125,7 @@ ul {
     --speaker-container-flex-direction:column;
     --speaker-container-picture-height:400px;
     --speaker-container-picture-width:100%;
+    --main-grid-template-columns:1fr;
   }
 }
 
@@ -264,11 +265,11 @@ ul {
   @media screen and (min-width:750px) {
     :root {
          /* Home styling */
-      --main-about-width:710px;
+      
       --main-p-font-size: 20px;
       --main-line-height:35px;
 
-      --main-grid-template-columns: 1fr 1fr;
+      
       --main-gap:10px;
       
       --main-p-font-size: 20px;
