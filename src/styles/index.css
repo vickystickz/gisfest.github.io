@@ -9,6 +9,24 @@
   --brand-purple:#62156f;
   --background-white: #f2f2f2; 
   --background-black: #0B111A;
+
+  /* Schedule page  */
+
+  --button-padding: 13px;
+  --button-font-size:16px;
+  --agenda-time-padding: 10px;
+  --speaker-container-flex-direction:row;
+  --speaker-container-gap:2px;
+  --speaker-container-picture-height:400px;
+  --speaker-container-picture-width:400px;
+
+  --nav-btn-padding:8px;
+  --nav-menu-mobile-display:none;
+
+  /* Home  */
+
+  --main-grid-template-columns:1fr 1fr;
+
 }
 
 
@@ -23,24 +41,7 @@ html {
 }
 
 
-/**** for Comming soon page  ****/
-/* body {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(255, 255, 255);
-  background: url("../media/images/background_image.jpg") top center no-repeat;
-  background-size: cover;
-  position: relative;
-}
-body::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(49, 48, 48, 0.8);
-  min-height:100vh;
-} */
+
 
 
 
@@ -84,6 +85,11 @@ ul {
   :root {
     --team-member-card-align-itmes: center;
     --team-member-card-flex-direction:column;
+
+    /* Schedule page  */
+    --speaker-container-flex-direction:column;
+    --speaker-container-picture-height:400px;
+    --speaker-container-picture-width:100%;
   }
 }
 
@@ -99,7 +105,7 @@ ul {
         /* Home Styling */
       --hero-info-width: 90%;
       --hero-info-h2-font-size:18px;
-
+      
 
 
       --hero-height: 55vh;
@@ -119,6 +125,7 @@ ul {
       --button-font-size:16px;
       --agenda-time-padding: 0;
 
+       --speaker-container-flex-direction:column;
 
 
   }
@@ -140,5 +147,13 @@ ul {
     }
 }
 
-@media screen and (max-width: 550px)  {
+
+
+@media screen and (max-width: 906px) {  
+  :root{
+
+    --nav-menu-mobile-display:block;
+
+    }
 }
+
