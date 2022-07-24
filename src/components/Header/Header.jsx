@@ -40,16 +40,16 @@ const Header = () => {
             })}
             
             <div className='btn'>
-              <NavHashLink smooth to='/#email-subscription'>
                 <button className='nav-btn' >
-                    Subscribe 
+                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link' target={'blank_'}>
+                  Subscribe ➚
+                  </a>
                 </button>
-              </NavHashLink>
             </div>
             </ul>
-        <div className='nav-menu-mobile' onClick={handleClick} >
-          {click ? <FaTimes className='Icon' /> : <FaBars className="Icon" />     } 
-        </div>
+          <div className='nav-menu-mobile' onClick={handleClick} >
+            {click ? <FaTimes className='Icon' /> : <FaBars className="Icon" />     } 
+          </div>
     </div>
   )
 }

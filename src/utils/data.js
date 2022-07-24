@@ -29,12 +29,7 @@ import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 export const socialMediaLinks=[
     {
         "social":"Gmail",
-        "url":"mailto:gisfestival@gmail.com",
-        "handle":"GIS Festival"
-    },
-    {
-        "social":"Youtube",
-        "url":"#",
+        "url":"mailto:support@gisfest.org",
         "handle":"GIS Festival"
     },
     {
@@ -52,6 +47,10 @@ export const socialMediaLinks=[
         "url":"https://twitter.com/gis_fest",
         "handle":"gis_fest"
     },
+    {
+        "social":"Github",
+        "url":"https://github.com/gisfest/gisfest.github.io",
+    }
 
 ]
 
@@ -63,31 +62,83 @@ export const MenuItems=[
        "url": "/",
        "cName": "nav-link"
     },
-    {
+    // {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "cName": "nav-link"
+    //  },
+    //  {
+    //     "title": "Hackhathon",
+    //     "url": "/hackathon",
+    //     "cName": "nav-link"
+    //  },
+    
+    //  {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "cName": "nav-link"
+    //  },
+     {
+        "title": "FAQS",
+        "url": "/FAQS",
+        "cName": "nav-link"
+     },
+    //  {  
+    //     "title": "Call for Paper",
+    //     "url": "/CallForPaper",
+    //     "cName": "nav-link"
+    //  },
+     {
         "title": "Team",
         "url": "/team",
         "cName": "nav-link"
-     }
-     
+     },
+       
 ]
 
 // Page Navigation links for Footer
 
 export const footerMenuItems = [
+  
     {
-        "title": "Home",
-        "url": "/",
+        "title": "Subscribe",
+        "url": "/#email-subscription",
         "sign": "|"
-    },  
-    {
+     },
+     {
         "title": "Organizing Team",
         "url": "/team",
         "sign": "|"
      },
-    {
-        "title": "Subscribe",
-        "url": "#",
-    }
+    //  {
+    //     "title": "Schedule",
+    //     "url": "/schedule",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Hackathon",
+    //     "url": "/hackathon",
+    //     "sign": "|"
+    //  },
+    //  {
+    //     "title": "Travel",
+    //     "url": "/travel",
+    //     "sign": "|"
+    //  },
+    //   {
+    //     "title": "Gallery",
+    //     "url": "/gallery",
+    //     "sign": "|"
+    //  },
+     {
+        "title": "FAQS",
+        "url": "/FAQS"
+     },
 ]
 
 // All Team's data 
@@ -203,5 +254,191 @@ export const teamData = [
                 "img": shehu_muhammed 
             }
         ]
+    }
+]
+
+
+export const FAQData = [
+    {
+        "id": 0,
+        "Question":"When and where will GISFest take place?",
+        "Answer":"GISFest will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
+    },
+    {
+        "id": 1,
+        "Question":"What is the ticket cost for GISFest?",
+        "Answer":"The ticket cost is $10USD for students and $30 for Professionals. Transactions will be charged in your local currency."
+    },
+    {
+        "id": 2,
+        "Question":"What is included in the ticket?",
+        "Answer":"You will receive access to GISFest (in-person) including the hackathon, trainings, certification, workshops, all sessions, all meals and all social activities."
+     },
+    {
+        "id": 3,
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 4,
+        "Question":"What is the refund policy?",
+        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    },
+    {
+        "id": 5,
+        "Question":"How do I become a Speaker?",
+        "Answer":"Submit your session ideas to the call for proposals by September 31st, 2022."
+    },
+    {
+        "id": 6,
+        "Question":"How do I become a Sponsor?",
+        "Answer":" If you have questions about sponsorship, please email sponsor@gisfest.org."
+    },
+    {
+        "id": 7,
+        "Question":"Will sessions be recorded?",
+        "Answer":"All conference sessions at GISFest 2022 will be recorded and available to attendees after the event."
+    },
+    {
+        "id": 8,
+        "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
+        "Answer":`Please send a request to visa@gisfest.org and include the following (Full name of person for whom you are requesting the letter, Date of Birth,
+            Passport Number and include Country of Issuance, issue date and expiration date, Job Title, Company Name)`
+    },
+    {
+        "id": 9,
+        "Question":"Who should I contact if I have questions?",
+        "Answer":`Please email support@gisfest.org if you have questions.`
+    },  
+
+]
+
+
+
+export const agendaData = [
+    {
+        "day": "DAY 1: November 1st",
+        "timeContent": [
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping ",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Career",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            
+        ]
+    },
+    {
+        "day": "DAY 2: November 2nd",
+        "timeContent": [
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Opening Speech",
+                "Speaker": "John Oluwatoba",
+                "tag": "Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+            },
+            
+        ]
+
+    }
+]
+
+
+export const speakerData = [
+    {
+        "name": "Claire Halleux",
+        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
+        "lesson": "Lessons learned from a building footprints import",
+        "picture": oluwadamilola_salua
+
+    },
+    {
+        "name": "Claire Halleux",
+        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
+        "lesson": "Lessons learned from a building footprints import",
+        "picture": oluwadamilola_salua
+
+    },
+    {
+        "name": "Claire Halleux",
+        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
+        "lesson": "Lessons learned from a building footprints import",
+        "picture": oluwadamilola_salua
+
+    },
+    {
+        "name": "Claire Halleux",
+        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
+        "lesson": "Lessons learned from a building footprints import",
+        "picture": oluwadamilola_salua
+
     }
 ]
