@@ -1,11 +1,16 @@
-import React from "react";
+import React, {useEffect } from "react";
 import EmailSubscription from "../../components/EmailSubscription.jsx/EmailSubscription";
 import './home.css';
-import SEO from '../SEO';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import SEO from '../SEO'
 
 const HomePage = () =>{
 
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
 
 
     return(
