@@ -62,11 +62,11 @@ export const MenuItems=[
        "url": "/#top",
        "cName": "nav-link"
     },
-    // {
-    //     "title": "Schedule",
-    //     "url": "/schedule",
-    //     "cName": "nav-link"
-    //  },
+    {
+        "title": "Agenda",
+        "url": "/schedule",
+        "cName": "nav-link"
+     },
     //  {
     //     "title": "Travel",
     //     "url": "/travel",
@@ -88,11 +88,11 @@ export const MenuItems=[
         "url": "/faqs#top",
         "cName": "nav-link"
      },
-    //  {  
-    //     "title": "Call for Paper",
-    //     "url": "/CallForPaper",
-    //     "cName": "nav-link"
-    //  },
+     {  
+        "title": "Call for Speakers",
+        "url": "/call-for-speakers#top",
+        "cName": "nav-link"
+     },
      {
         "title": "Team",
         "url": "/team#top",
@@ -115,11 +115,16 @@ export const footerMenuItems = [
         "url": "/team#top",
         "sign": "|"
      },
-    //  {
-    //     "title": "Schedule",
-    //     "url": "/schedule",
-    //     "sign": "|"
-    //  },
+     {
+        "title": "Agenda",
+        "url": "/schedule#top",
+        "sign": "|"
+     },
+     {
+        "title": "Call For Speakers",
+        "url": "/call-for-speakers#top",
+        "sign": "|"
+     },
     //  {
     //     "title": "Hackathon",
     //     "url": "/hackathon",
@@ -262,7 +267,7 @@ export const FAQData = [
     {
         "id": 0,
         "Question":"When and where will GISFest take place?",
-        "Answer":"GISFest will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
+        "Answer":"GISfest 2022 will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
     },
     {
         "id": 1,
@@ -281,32 +286,27 @@ export const FAQData = [
     },
     {
         "id": 4,
-        "Question":"What is the refund policy?",
-        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
-    },
-    {
-        "id": 5,
         "Question":"How do I become a Speaker?",
         "Answer":"Submit your session ideas to the call for proposals by September 31st, 2022."
     },
     {
-        "id": 6,
+        "id": 5,
         "Question":"How do I become a Sponsor?",
         "Answer":" If you have questions about sponsorship, please email sponsor@gisfest.org."
     },
     {
-        "id": 7,
+        "id": 6,
         "Question":"Will sessions be recorded?",
-        "Answer":"All conference sessions at GISFest 2022 will be recorded and available to attendees after the event."
+        "Answer":"All conference sessions at GISfest 2022 will be recorded and available to attendees after the event."
     },
     {
-        "id": 8,
+        "id": 7,
         "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
         "Answer":`Please send a request to visa@gisfest.org and include the following (Full name of person for whom you are requesting the letter, Date of Birth,
             Passport Number and include Country of Issuance, issue date and expiration date, Job Title, Company Name)`
     },
     {
-        "id": 9,
+        "id": 8,
         "Question":"Who should I contact if I have questions?",
         "Answer":`Please email support@gisfest.org if you have questions.`
     },  
@@ -317,93 +317,93 @@ export const FAQData = [
 
 export const agendaData = [
     {
-        "day": "DAY 1: November 1st",
+        "day": "DAY 1: November 11th",
         "timeContent": [
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Career Panel Session (Non-technical)",
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping ",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "Learning about what it takes to prepare and be successful for a career in Entrepreneurship, Academia, or NGO."
             },
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Innovative/Enterprise use case of geospatial technology",
                 "Speaker": "John Oluwatoba",
                 "tag": "Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "How companies are innovating around geospatial technology. We want to capture as many sectors as possible."
             },
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Workshop",
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping | Cartography | Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "Learning interesting and new tools in the industry."
             },
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Industry opportunities",
                 "Speaker": "John Oluwatoba",
                 "tag": "Career",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "Recruiting/hiring and how professionals can find different job opportunities."
             },
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Women in GIS panel session",
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping | Cartography | Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "How women can develop useful skillset and how they can find and leverage on mentorship and communities."
             },
             
         ]
     },
     {
-        "day": "DAY 2: November 2nd",
+        "day": "DAY 2: November 12th",
         "timeContent": [
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Career Panel Session (Technical)",
                 "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
+                "tag": "Mapping ",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "learning about what it takes to prepare and be successful for a career in freelancing and industry. This one would also include new technical career paths."
             },
             {
                 "time": "10:00 am",
-                "title": "Opening Speech",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Opening Speech",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Opening Speech",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Opening Speech",
+                "title": "Innovative/Enterprise use case of geospatial technology",
                 "Speaker": "John Oluwatoba",
                 "tag": "Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database."
+                "sessionContent": "How companies are innovating around geospatial technology. We want to capture as many sectors as possible."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Workshop",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "Learning interesting and new tools in the industry."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Hackathon",
+                "Speaker": "John Oluwatoba",
+                "tag": "Career",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": "Encouraging innovation in the geospatial industry (Stay tuned for more info)."
+            },
+            {
+                "time": "10:00 am",
+                "title": "Geospatial Communities & Volunteering",
+                "Speaker": "John Oluwatoba",
+                "tag": "Mapping | Cartography | Web mapping",
+                "sessionTitle": "lessons learned from a building footprints import",
+                "sessionContent": " how people can kick off their careers by volunteering and joining communities. This one would focus on organizations such HOTOSM, YouthMappers etc"
             },
             
         ]
@@ -441,4 +441,43 @@ export const speakerData = [
         "picture": oluwadamilola_salua
 
     }
+]
+
+
+export const workshopTypes = [
+    {
+        title:'Geodev - WebGIS / Python/JavaScript etc.',
+        description:'As our spatially enabled society grows, so does the need to create functional and usable webmaps, visualizations and expand coding capabilities. The geospatial development workshop is designed to teach and expose conference participants to different techniques for geospatial development by utilizing different tools such as Python, JavaScript etc.'
+    },
+    {
+        title:'Spatial Analytics - Methodologies / UAV data processing etc.',
+        description:'Spatial Analytics remains the backbone of all decision-making. In order to fully reach an appropriate conclusion, we utilize location as the connective thread to uncover hidden patterns, improve predictive modeling, and create a competitive edge. For the Spatial Analytics section, participants will get to interact with case studies that evoke critical spatial cognition thinking to create appropriate geo visualization that is backed by solid geostatistical theory. '
+    },
+    {
+        title:'Geo AI - Machine learning, Deep learning etc.',
+        description:'The science and technology of Geo AI have come a long way. Today’s executives are thinking about areas including market planning, site selection, product selection, price optimization, where they want to use Geo AI to better anticipate outcomes for their business and make better decisions based on these insights. For the Geo AI session, participants will get to learn different Geo AI techniques and tools that can be useful to them as an individual or corporate entity. '
+    },
+    {
+        title:'Cloud Computing -  GEE / Cloud platform etc.',
+        description:'With the growth of data in every sphere of our life. Data can be mined and stored by virtually all sensors around us making the amount of data for processing too much to handle by a standalone computer. To mitigate these issues and provide scalability, cloud computing has become an on-demand tool for data storage and processing. In the geospatial industry,  this comes as a collection of geospatial datasets and satellite imageries with on-the-go scale analysis tools. In this section, participants will get to learn,  interact and utilise the most popular cloud computing platforms and resources.'
+    },
+]
+
+export const talkTypes = [
+    'Transportation and Logistics',
+    'Fintech and Blockchain technology',
+    'Ocean conservation and Management',
+    'Security and Defense',
+    'Utility Distribution',
+    'Retail and e-commerce',
+    'Health',
+    'Emergency Management',
+    'Climate change and Green transitioning',
+    'Urban planning and Smart City',
+    'Oil, Gas, and Solid Minerals',
+    'Resource Allocation (Population and Social Safety Net Initiatives)',
+    'Food Security, Forestry, and Agriculture',
+    'Telecommunication',
+    'Waste Management',
+
 ]
