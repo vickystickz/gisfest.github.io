@@ -26,8 +26,8 @@ const HomePage = () =>{
                             <h2>Lagos, Nigeria.</h2>
                         </div>
                         <div className="cta-button">
-                            <button type="submit"><a href="/call-for-speakers" target={'blank_'}>Submit An Abstract</a></button>
-                            <button type="submit"><a href="/#email-subscription" target={'blank_'}>Register</a></button>
+                            <button type="submit"><a href="/call-for-speakers">Submit An Abstract</a></button>
+                            <button type="submit"><a href="/#email-subscription">Register</a></button>
                         </div>
                         
                     </div>

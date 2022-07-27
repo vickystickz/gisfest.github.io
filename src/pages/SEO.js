@@ -8,7 +8,7 @@ const SEO = ({title,url})=>{
             <title>{title}</title>
             <meta name="title" content={title}></meta>
             <meta name="description" content="GISfest is a conference bringing together geospatial professionals and enthusiasts to discuss geospatial technologies and it applications in numerous industries."></meta>
-            <meta name="keywords" content="Meetup, Africa GIS, GIS, Conference,Gathering" />
+            <meta name="keywords" content="Meetup, Africa GIS, GIS, Conference, Gathering" />
         
             <meta property="og:type" content="website"></meta>
             <meta property="og:url" content={url}></meta>

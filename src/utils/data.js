@@ -403,7 +403,7 @@ export const agendaData = [
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping | Cartography | Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": " how people can kick off their careers by volunteering and joining communities. This one would focus on organizations such HOTOSM, YouthMappers etc"
+                "sessionContent": " how people can kick off their careers by volunteering and joining communities. This one would focus on Non-profit organizations."
             },
             
         ]
