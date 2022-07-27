@@ -24,7 +24,7 @@ function App() {
           {/* <Route path="/gallery" element={<Gallery/>}/>*/}
           {/*<Route path="/travel" element={<Travel />}/>*/}
           <Route path="/faqs" element={<FAQS />}/>
-          <Route path="/call-for-speakers" element={<CallForSpeakers />}/>
+          <Route path="/call-for-speakers"  element={<CallForSpeakers />}/>
           <Route path="/schedule" element={<Schedule/>}/>
         </Routes>
         <Footer />
