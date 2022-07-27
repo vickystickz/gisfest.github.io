@@ -55,6 +55,7 @@ const CallForSpeakers = () => {
 
           <div className='paper-requirements'>
               <h1>Talks</h1>
+              <p>Share Innovative/Enterprise use case of geospatial technology/Innovative solution integrating geospatial technology. For this session, we want to focus on Geo-Innovation.</p>
               <p>We are looking for startup and enterprise in the following (but not limited) sectors:</p>
               <ul>
                 {
