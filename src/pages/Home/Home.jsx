@@ -4,7 +4,7 @@ import './home.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SEO from '../SEO'
-
+import {Link} from 'react-router-dom';
 const HomePage = () =>{
 
     useEffect(() => {
@@ -26,7 +26,7 @@ const HomePage = () =>{
                             <h2>Lagos, Nigeria.</h2>
                         </div>
                         <div className="cta-button">
-                            <button type="submit"><a href="/call-for-speakers">Submit An Abstract</a></button>
+                            <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>
                             <button type="submit"><a href="/#email-subscription">Register</a></button>
                         </div>
                         
