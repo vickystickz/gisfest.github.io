@@ -31,8 +31,36 @@
     text-align: center;
     width: var(--hero-info-width);
     opacity: 0.8;
+    margin-bottom: 2rem;
+    border-radius:3px;
    
 }
+
+.cta-button{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cta-button button:hover{
+    background-color: var(--brand-yellow);
+}
+
+.cta-button button{
+    border: none;
+    background-color: var(--brand-red);
+    border-radius:3px;
+    color: black;
+}
+
+@media screen and (max-width: 550px) { 
+    .cta-button{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
 
 .hero-info h2 {
     font-size:var(--hero-info-h2-font-size);

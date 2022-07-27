@@ -8,8 +8,8 @@ import Footer from './components/Footer/Footer';
 // import Gallery from './pages/Gallery/Gallery';
 import FAQS from './pages/FAQS/FAQS';
 // import Travel from './pages/Travel/Travel';
-// import Schedule from './pages/Schedule/Schedule';
-// import CallForPaper from './pages/Call_for_paper/CallForPaper';
+import Schedule from './pages/Schedule/Schedule';
+import CallForSpeakers from './pages/CallForSpeakers/CallForSpeakers';
 
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
           {/* <Route path="/gallery" element={<Gallery/>}/>*/}
           {/*<Route path="/travel" element={<Travel />}/>*/}
           <Route path="/faqs" element={<FAQS />}/>
-          {/*<Route path="/CallForPaper" element={<CallForPaper />}/>*/}
-          {/*<Route path="/schedule" element={<Schedule />}/>*/}
+          <Route path="/call-for-speakers" element={<CallForSpeakers />}/>
+          <Route path="/schedule" element={<Schedule/>}/>
         </Routes>
         <Footer />
       </Router>

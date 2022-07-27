@@ -25,7 +25,13 @@ const HomePage = () =>{
                             <h2>11 - 12th | November, 2022.</h2>
                             <h2>Lagos, Nigeria.</h2>
                         </div>
+                        <div className="cta-button">
+                            <button type="submit"><a href="/call-for-speakers" target={'blank_'}>Submit An Abstract</a></button>
+                            <button type="submit"><a href="/#email-subscription" target={'blank_'}>Register</a></button>
+                        </div>
+                        
                     </div>
+                    
                 </div>
 
                 <main>

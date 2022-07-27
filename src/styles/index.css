@@ -82,7 +82,7 @@ ul {
   --hero-height: 100vh;
   --hero-background-position: none;
 
-  --home-main-p-font-size: 20px;
+  --home-main-p-font-size: 18px;
   --home-main-p-line-height: 35px; 
 
 
@@ -96,11 +96,12 @@ ul {
       /* Schedule */
      --button-padding: 20px;
      --button-font-size:20px;
-
+     --contents-font-size:18px;
+     --contents-heading-font-size:25px;
 
      --agenda-time-padding: 20px;
      --agenda-time-width: 12%;
-     --agenda-time-font-size: 17px;
+     --agenda-time-font-size: 18px;
 
 
     /* Callforpaper page styling */
@@ -184,7 +185,7 @@ ul {
       --team-title-font-size:20px;
 
       --main-grid-template-columns: 1fr;
-
+      --home-main-p-font-size: 16px;
        /* Callforpaper page styling */
        --columnn-2-grid-template-columns: auto;
        --poster-deadline-height: 250px;
@@ -256,6 +257,9 @@ ul {
 
     --columnn-2-grid-template-columns: auto;
 
+    --contents-font-size:16px;
+    --contents-heading-font-size:20px;
+
 }
 
 }
@@ -275,6 +279,7 @@ ul {
       --main-p-font-size: 20px;
       --main-h1-font-size:40px;
       --main-p-line-height: 35px;
+     
     }
 }
 
