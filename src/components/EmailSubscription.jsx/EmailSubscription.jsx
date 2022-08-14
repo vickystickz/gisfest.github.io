@@ -64,7 +64,7 @@ const EmailSubscription = ( )=>{
                                 </form>)
                             }
                         />*/}
-                        <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" target={'blank_'}>Register Now! ➚</a></button>
+                        <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target={'blank_'}>Register Now! ➚</a></button>
                     </div>
             </div>
         </section>
