@@ -52,7 +52,7 @@ const EmailSubscription = ( )=>{
         <section id="email-subscription" >
             <div>
                 <h3>Subscribe for event updates</h3>
-                <p>Registration is now open!. Click on button below to register for GISFest 2022 conference</p>
+                <p>Registration is now open!. Click on button below to register for GISfest 2022 conference</p>
                     <div>
                         {/*<MailchimpSubscribe
                             url={BASE_URL}
