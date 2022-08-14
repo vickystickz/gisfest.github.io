@@ -51,7 +51,7 @@ const EmailSubscription = ( )=>{
     return(
         <section id="email-subscription" >
             <div>
-                <h3>Subscribe for event updates</h3>
+                <h3>Register for GISfest 2022 Conference</h3>
                 <p>Registration is now open!. Click on button below to register for GISfest 2022 Conference</p>
                     <div>
                         {/*<MailchimpSubscribe
