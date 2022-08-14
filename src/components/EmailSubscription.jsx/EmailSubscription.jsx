@@ -52,7 +52,7 @@ const EmailSubscription = ( )=>{
         <section id="email-subscription" >
             <div>
                 <h3>Subscribe for event updates</h3>
-                <p>Registration will open soon. In the meantime, join our mailing list to receive news and updates for GISFest events</p>
+                <p>Registration is now open!. Click on button below to register for GISFest 2022 conference</p>
                     <div>
                         {/*<MailchimpSubscribe
                             url={BASE_URL}
@@ -64,7 +64,7 @@ const EmailSubscription = ( )=>{
                                 </form>)
                             }
                         />*/}
-                        <button type="submit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link" target={'blank_'}>Subscribe ➚</a></button>
+                        <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" target={'blank_'}>Register Now! ➚</a></button>
                     </div>
             </div>
         </section>
