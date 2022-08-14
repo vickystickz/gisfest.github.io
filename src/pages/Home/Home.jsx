@@ -27,7 +27,7 @@ const HomePage = () =>{
                         </div>
                         <div className="cta-button">
                             <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>
-                            <button type="submit"><a href="/#email-subscription">Register</a></button>
+                            <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" target='_blank'>Register Now!</a></button>
                         </div>
                         
                     </div>
