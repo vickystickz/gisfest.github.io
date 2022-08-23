@@ -23,7 +23,7 @@ const HomePage = () =>{
                         </div>
                         <div className="hero-info">
                             <h2>11 - 12th | November, 2022.</h2>
-                            <h2>Lagos, Nigeria.</h2>
+                            <h2>Hybrid</h2>
                         </div>
                         <div className="cta-button">
                             <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>
