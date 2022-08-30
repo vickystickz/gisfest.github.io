@@ -27,7 +27,7 @@ const HomePage = () =>{
                         </div>
                         <div className="cta-button">
                             <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>
-                            <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target='_blank'>Register Now!</a></button>
+                            <button><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target='_blank'>Register Now!</a></button>
                         </div>
                         
                     </div>
@@ -47,6 +47,13 @@ const HomePage = () =>{
                 </main>
     
                 <EmailSubscription />
+                <div className="sponsors">
+                    <h2>Sponsors</h2>
+                    <div className="sponsor-logo">
+                        Your Logo here
+                    </div>
+                    <p>Please click <a href="https://drive.google.com/file/d/1VG_UmUuGMQV0opTafsMTKSBP_2QJ6ai3/view?usp=sharing" rel="noreferrer" target='_blank'>here</a> to download our sponsorship/supporter deck.</p>
+                </div>
             </div>
     )
 }

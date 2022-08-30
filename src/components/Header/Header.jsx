@@ -44,8 +44,8 @@ const Header = () => {
             
             <div className='btn'>
                 <button className='nav-btn' >
-                  <a href='https://docs.google.com/forms/d/e/1FAIpQLSdSnXsxJcOtaP3WHr2k3VjY28tbBXuv9C2cYsBeSTrI_2_hzg/viewform?usp=sf_link' target={'blank_'}>
-                  Subscribe ➚
+                  <a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target={'blank_'}>
+                  Register ➚
                   </a>
                 </button>
             </div>

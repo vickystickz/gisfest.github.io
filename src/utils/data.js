@@ -271,7 +271,7 @@ export const FAQData = [
     },
     {
         "id": 1,
-        "Question":"What is the ticket cost for GISFfest?",
+        "Question":"What is the ticket cost for GISfest?",
         "Answer":"The ticket cost is $5USD for students and $12 for Professionals. Transactions will be charged in your local currency."
     },
     {
