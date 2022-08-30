@@ -266,18 +266,18 @@ export const teamData = [
 export const FAQData = [
     {
         "id": 0,
-        "Question":"When and where will GISFest take place?",
+        "Question":"When and where will GISfest take place?",
         "Answer":"GISfest 2022 will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
     },
     {
         "id": 1,
-        "Question":"What is the ticket cost for GISFest?",
-        "Answer":"The ticket cost is $10USD for students and $30 for Professionals. Transactions will be charged in your local currency."
+        "Question":"What is the ticket cost for GISFfest?",
+        "Answer":"The ticket cost is $5USD for students and $12 for Professionals. Transactions will be charged in your local currency."
     },
     {
         "id": 2,
         "Question":"What is included in the ticket?",
-        "Answer":"You will receive access to GISFest (in-person) including the hackathon, trainings, certification, workshops, all sessions, all meals and all social activities."
+        "Answer":"You will receive access to GISfest (in-person) including all sessions and social activities."
      },
     {
         "id": 3,
@@ -292,7 +292,7 @@ export const FAQData = [
     {
         "id": 5,
         "Question":"How do I become a Sponsor?",
-        "Answer":" If you have questions about sponsorship, please email sponsor@gisfest.org."
+        "Answer":" If you have questions about sponsorship, please email sponsors@gisfest.org."
     },
     {
         "id": 6,
@@ -302,8 +302,7 @@ export const FAQData = [
     {
         "id": 7,
         "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
-        "Answer":`Please send a request to visa@gisfest.org and include the following (Full name of person for whom you are requesting the letter, Date of Birth,
-            Passport Number and include Country of Issuance, issue date and expiration date, Job Title, Company Name)`
+        "Answer":`Please send a request to visa@gisfest.org and we would support you with your visa application.`
     },
     {
         "id": 8,
@@ -371,7 +370,7 @@ export const agendaData = [
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping ",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "learning about what it takes to prepare and be successful for a career in freelancing and industry. This one would also include new technical career paths."
+                "sessionContent": "learning about what it takes to prepare and be successful for a career in freelancing and the industry. This would also include new technical career paths."
             },
             {
                 "time": "10:00 am",
@@ -391,7 +390,7 @@ export const agendaData = [
             },
             {
                 "time": "10:00 am",
-                "title": "Hackathon",
+                "title": "Idea Pitch & Hackathon",
                 "Speaker": "John Oluwatoba",
                 "tag": "Career",
                 "sessionTitle": "lessons learned from a building footprints import",
@@ -403,7 +402,7 @@ export const agendaData = [
                 "Speaker": "John Oluwatoba",
                 "tag": "Mapping | Cartography | Web mapping",
                 "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": " how people can kick off their careers by volunteering and joining communities. This one would focus on Non-profit organizations."
+                "sessionContent": "How people can kick off their careers by volunteering and joining communities. This would focus on Non-profit organizations."
             },
             
         ]
