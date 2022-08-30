@@ -105,6 +105,34 @@ main h1:nth-child(even){
     color:var(--brand-red)
 }
 
+.sponsors{
+    background-color:var(--brand-red);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+}
+
+.sponsors h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.sponsor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--brand-yellow);
+    color: white;
+    padding: 10px;
+    width: 120px;
+    align-self: center;
+}
+.sponsors  p{
+    color: white;
+    margin-top: 20px;
+}
 
 @media screen and (max-width:900px) {
 
