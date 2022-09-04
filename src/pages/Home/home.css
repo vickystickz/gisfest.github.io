@@ -109,16 +109,21 @@ main h1:nth-child(even){
     background-color:var(--brand-red);
     display: flex;
     flex-direction: column;
-    height: 200px;
     text-align: center;
+    padding: 10px;
 }
 
-.sponsors h2{
+.sponsors h1{
     color: white;
     text-align: center;
     padding: 10px;
 }
 
+.section-title{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 .sponsor-logo{
     display: flex;
     justify-content: center;
