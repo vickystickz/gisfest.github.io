@@ -13,6 +13,12 @@ section * {
    margin-top: 7px;
 }
 
+section table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 input {
     border: none;
     padding: 10px;

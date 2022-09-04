@@ -34,7 +34,7 @@ export const socialMediaLinks=[
     },
     {
         "social":"Linkedin",
-        "url":"https://www.linkedin.com/in/gis-fest-352a3323b/",
+        "url":"https://www.linkedin.com/company/gis-fest",
         "handle":"GIS Festival"
     },
     {

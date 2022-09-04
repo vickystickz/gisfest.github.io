@@ -52,7 +52,8 @@ const EmailSubscription = ( )=>{
         <section id="email-subscription" >
             <div>
                 <h3>Register for GISfest 2022 Conference</h3>
-                <p>Registration is now open!. Click on button below to register for GISfest 2022 Conference</p>
+                <p>Registration for GISfest Conference 2022 is now open! The cost of a ticket is <span style={{fontWeight:'bold'}}>5$</span> for Students and <span style={{fontWeight:'bold'}}>12$</span> for Professionals.</p>
+                <p>Click on button below to register for GISfest 2022 Conference</p>
                     <div>
                         {/*<MailchimpSubscribe
                             url={BASE_URL}
