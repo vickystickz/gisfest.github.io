@@ -12,7 +12,7 @@ const Header = () => {
     const [fixHeader, setFixHeader] = useState(false);
 
     const fixHeaderOnScroll = () => {
-      if(window.scrollY >= 5) {
+      if(window.scrollY >= 6) {
         setFixHeader(true)
       }else{
         setFixHeader(false)
