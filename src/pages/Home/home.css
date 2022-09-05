@@ -11,7 +11,7 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: var( --hero-height);
+    height: 120vh;
     background-size: cover;
     background-position: var(--hero-background-position);
 }
@@ -21,19 +21,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 7vh;
+    padding-top: 3.7vh;
 }
 
 .hero-info{
     background-color: black;
     color:#fff;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     width: var(--hero-info-width);
     opacity: 0.8;
     margin-bottom: 2rem;
     border-radius:3px;
-   
 }
 
 .cta-button{

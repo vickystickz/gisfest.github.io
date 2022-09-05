@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom';
 import '../Schedule/Schedule.css';
 import { agendaData,teamData,talkTypes,workshopTypes} from '../../utils/data';
 import TeamCard from '../../components/TeamCard/TeamCard';
+import CountDown from "../../components/CountDown/CountDown";
 
 
 const HomePage = () =>{
@@ -30,6 +31,7 @@ const HomePage = () =>{
                         <div className="hero-info">
                             <h2>11 - 12th | November, 2022.</h2>
                             <h2>Hybrid</h2>
+                            <CountDown/>
                         </div>
                         <div className="cta-button">
                             <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>

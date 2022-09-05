@@ -1,0 +1,32 @@
+.countdown-content{
+    padding: 3px 5px;
+    border: 3px solid var(--brand-yellow);
+    width:  var(--countdown-content); 
+}
+
+.countdown-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+.coundown-info {
+    font-size:   var(--countdown-content-info-font-size);
+    letter-spacing: 1px;
+}
+span {
+    padding:var(--countdown-content-span-padding);
+    color: var(--brand-yellow);
+    line-height: var(--countdown-content-span-line-height);
+
+}
+.time{
+    font-size:26px;
+    font-weight: bold;
+    padding: var(--countdown-content-time-padding);
+}
+
+small {
+    font-size: var(--countdown-content-small-text);   
+}
