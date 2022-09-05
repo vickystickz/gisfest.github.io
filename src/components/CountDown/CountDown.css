@@ -1,7 +1,7 @@
 .countdown-content{
-    padding: 3px 25px;
+    padding: 3px 5px;
     border: 3px solid var(--brand-yellow);
-    width: 400px;
+    width:  var(--countdown-content); 
 }
 
 .countdown-container {
@@ -12,16 +12,21 @@
 }
 
 .coundown-info {
-    font-size: 15px;
+    font-size:   var(--countdown-content-info-font-size);
     letter-spacing: 1px;
 }
 span {
-    padding:15px;
-    font-size: 15px;
+    padding:var(--countdown-content-span-padding);
     color: var(--brand-yellow);
+    line-height: var(--countdown-content-span-line-height);
+
 }
 .time{
     font-size:26px;
     font-weight: bold;
-    padding: 10px;
+    padding: var(--countdown-content-time-padding);
+}
+
+small {
+    font-size: var(--countdown-content-small-text);   
 }
