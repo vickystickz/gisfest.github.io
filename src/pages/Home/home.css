@@ -11,7 +11,7 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: var( --hero-height);
+    height: var(--hero-height);
     background-size: cover;
     background-position: var(--hero-background-position);
 }
