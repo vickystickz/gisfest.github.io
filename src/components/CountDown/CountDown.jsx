@@ -48,7 +48,6 @@ useEffect(()=>{
   return (
       <div className='countdown-container flexbox'>
         <div class="coundown-info">
-           <p>Conference starts in... </p>
         </div>
         <div className='countdown-content flexbox'>
           <div className="time-block">
