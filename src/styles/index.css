@@ -34,15 +34,6 @@ body {
 ::-webkit-scrollbar-corner {
   background: #000;
 }
-/* html::-webkit-scrollbar {
-  width: 5px;
-}
-html::-webkit-scrollbar-track {
-  background-color: darkgray;
-}
-/* html:-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-} */ */
 
 a {
   text-decoration: none;
@@ -168,10 +159,6 @@ ul {
     --countdown-content-time-padding: 9px 9px 0px 9px;
     --countdown-content-span-padding: 3px;
     --countdown-content-info-font-size: 15px;
-
-     /* home:hero component styling */
-     --hero-height: 120vh;
-
      --countdown-content-small-text: 10px;
     
 
@@ -194,7 +181,7 @@ ul {
       
 
 
-      --hero-height: 55vh;
+      --hero-height: 70vh;
       --hero-background-position: center;
       --main-grid-template-columns: 1fr;
 
@@ -241,9 +228,6 @@ ul {
 
        --gallery-container-grid-template-columns: 1fr;
 
-       
-    /* home:hero component styling */
-    --hero-height: 100vh;
 
 
     }
@@ -314,8 +298,6 @@ ul {
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
 
-    --hero-height: 110vh;
-
 }
 
 }
@@ -336,8 +318,5 @@ ul {
       --main-h1-font-size:40px;
       --main-p-line-height: 35px;
      
-
-      --hero-height: 110vh;
     }
 }
-
