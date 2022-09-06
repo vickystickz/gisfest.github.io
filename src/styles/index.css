@@ -298,6 +298,8 @@ ul {
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
 
+    --hero-height: 100vh;
+
 }
 
 }
