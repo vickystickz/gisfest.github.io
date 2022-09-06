@@ -159,10 +159,6 @@ ul {
     --countdown-content-time-padding: 9px 9px 0px 9px;
     --countdown-content-span-padding: 3px;
     --countdown-content-info-font-size: 15px;
-
-     /* home:hero component styling */
-     --hero-height: 120vh;
-
      --countdown-content-small-text: 10px;
     
 
@@ -232,9 +228,6 @@ ul {
 
        --gallery-container-grid-template-columns: 1fr;
 
-       
-    /* home:hero component styling */
-    --hero-height: 100vh;
 
 
     }
