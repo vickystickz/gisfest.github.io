@@ -35,7 +35,7 @@ const Header = () => {
             {MenuItems.map((item,index) => {
                 return (
                     <li key={index}>
-                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
+                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive : isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
                         {item.title}
                         </NavLink>  
                     </li>

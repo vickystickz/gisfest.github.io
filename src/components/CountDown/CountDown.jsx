@@ -47,7 +47,7 @@ useEffect(()=>{
 
   return (
       <div className='countdown-container flexbox'>
-        <div class="coundown-info">
+        <div className="coundown-info">
         </div>
         <div className='countdown-content flexbox'>
           <div className="time-block">
