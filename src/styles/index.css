@@ -298,8 +298,6 @@ ul {
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
 
-    --hero-height: 90vh;
-
 }
 
 }
@@ -320,8 +318,6 @@ ul {
       --main-h1-font-size:40px;
       --main-p-line-height: 35px;
      
-
-      --hero-height: 110vh;
     }
 }
 
