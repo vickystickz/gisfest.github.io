@@ -40,6 +40,7 @@
     flex-direction: row;
     gap: 1rem;
     color:#fff;
+    margin-top: 15px;
 }
 
 .cta-button button:hover{
@@ -50,7 +51,6 @@
     border: none;
     background-color: var(--brand-red);
     border-radius:3px;
-
     color:#fff;
 }
 
