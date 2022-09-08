@@ -1,7 +1,8 @@
 .countdown-content{
-    padding: 3px 5px;
     border: 3px solid var(--brand-yellow);
-    width:  var(--countdown-content); 
+    min-width:45%;
+    padding:8px;
+    gap: 5px;
 }
 
 .countdown-container {
@@ -16,15 +17,19 @@
     letter-spacing: 1px;
 }
 span {
-    padding:var(--countdown-content-span-padding);
     color: var(--brand-yellow);
-    line-height: var(--countdown-content-span-line-height);
+    line-height:32px;
+}
 
+time-block {
+    padding:10px;
+    display:block;
+    flex-grow: 1;
+    display: inline-block;
 }
 .time{
     font-size:26px;
     font-weight: bold;
-    padding: var(--countdown-content-time-padding);
 }
 
 small {

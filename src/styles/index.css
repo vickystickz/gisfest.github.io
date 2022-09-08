@@ -91,7 +91,7 @@ ul {
 
     /* Home Styling */
 
-  --hero-info-width: 60%;
+  --hero-info-width: inherit;
   --hero-info-h2-font-size:1.5em;
   --hero-height: 100vh;
   --hero-background-position: none;
@@ -124,7 +124,7 @@ ul {
     --poster-deadline-width:90%;
 
     /* Countdown component styling */
-    --countdown-content: 360px; 
+    --countdown-content: 40%; 
     --countdown-content-time-padding: 10px;
     --countdown-content-info-font-size: 15px;
     --countdown-content-span-padding: 9px;
@@ -154,7 +154,7 @@ ul {
     --speaker-container-picture-width:100%;
     --main-grid-template-columns:1fr;
      /* Countdown component  */
-    --countdown-content: 230px; 
+    --countdown-content: 40%; 
     --countdown-content-span-line-height: 37px;
     --countdown-content-time-padding: 9px 9px 0px 9px;
     --countdown-content-span-padding: 3px;
@@ -176,7 +176,7 @@ ul {
 
 
         /* Home Styling */
-      --hero-info-width: 90%;
+      --hero-info-width: inherit;
       --hero-info-h2-font-size:18px;
       
 
