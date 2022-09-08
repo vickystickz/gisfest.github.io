@@ -124,7 +124,6 @@ ul {
     --poster-deadline-width:90%;
 
     /* Countdown component styling */
-    --countdown-content: 40%; 
     --countdown-content-time-padding: 10px;
     --countdown-content-info-font-size: 15px;
     --countdown-content-span-padding: 9px;
@@ -154,7 +153,6 @@ ul {
     --speaker-container-picture-width:100%;
     --main-grid-template-columns:1fr;
      /* Countdown component  */
-    --countdown-content: 40%; 
     --countdown-content-span-line-height: 37px;
     --countdown-content-time-padding: 9px 9px 0px 9px;
     --countdown-content-span-padding: 3px;
@@ -297,6 +295,9 @@ ul {
 
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
+
+    /* home:hero component styling */
+    --hero-height: 80vh;
 
 }
 
