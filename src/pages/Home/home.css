@@ -11,7 +11,7 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: 120vh;
+    height: var(--hero-height);
     background-size: cover;
     background-position: var(--hero-background-position);
 }
@@ -29,7 +29,7 @@
     color:#fff;
     padding: 2rem;
     text-align: center;
-    width: var(--hero-info-width);
+    min-width: 40%;
     opacity: 0.8;
     margin-bottom: 2rem;
     border-radius:3px;
