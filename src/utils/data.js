@@ -25,9 +25,9 @@ import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 
 // Import Merchandise pictures
 
-import Bottle from '../media/images/merchandise/Bottle.jpg';
-import StringBag from '../media/images/merchandise/String Bag.jpg';
-import Tshirt from '../media/images/merchandise/T Shirt.jpg';
+import Bottle from '../media/images/merchandise/Bottle.webp';
+import StringBag from '../media/images/merchandise/String Bag.webp';
+import Tshirt from '../media/images/merchandise/T-Shirt.webp';
 
 
 // Merchandise data 
