@@ -22,7 +22,7 @@ const Merchandise = () => {
                 <button><a href={item.link} rel="noreferrer" target='_blank'>Buy Now</a></button>
             </div>
 
-                )   
+            )   
         })}
      </div>
     </div>
