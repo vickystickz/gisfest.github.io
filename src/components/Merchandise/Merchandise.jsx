@@ -19,7 +19,7 @@ const Merchandise = () => {
                     <p>{item.name}</p>
                     <span>Price:{item.price}</span>
                 </div>
-                <button>Buy Now</button>
+                <button><a href={item.link} rel="noreferrer" target='_blank'>Buy Now</a></button>
             </div>
 
                 )   
