@@ -133,6 +133,10 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 115vh;
+
+
+    --merchandise-container-grid-template-columns: repeat(3, 1fr);
+    --merchandise-container-grid-gap:70px;
 }
 
 
@@ -190,6 +194,7 @@ ul {
       /* Gallery */
 
       --gallery-container-grid-template-columns: 1fr;
+      --merchandise-container-grid-template-columns: 1fr;
 
       /* Schedule */
       --button-padding: 13px;
@@ -225,7 +230,7 @@ ul {
        --poster-deadline-height: 250px;
 
        --gallery-container-grid-template-columns: 1fr;
-
+       --merchandise-container-grid-gap:45px;
 
 
     }
@@ -298,6 +303,9 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 91vh;
+
+    --merchandise-container-grid-template-columns: 1fr;
+    --merchandise-container-grid-gap:45px;
 
 }
 
