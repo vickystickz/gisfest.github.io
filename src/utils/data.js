@@ -36,19 +36,19 @@ export const MerchandiseData=[
         "name": "T-shirt",
         "price": "#5,000",
         "picture": Tshirt,
-        "link": "",
+        "link": "https://paystack.com/pay/gis-fest-2022-t-shirt",
     },
     {
         "name": "String Bag",
         "price": "#4,500",
         "picture": StringBag,
-        "link": "",
+        "link": "https://paystack.com/pay/gis-fest-conference-string-bag",
     },
     {
         "name": "Bottle",
         "price": "#7,500",
         "picture": Bottle,
-        "link": "",
+        "link": "https://paystack.com/pay/gis-fest-bottle",
     }
 
 ]
