@@ -23,6 +23,39 @@ import shehu_muhammed from '../media/images/team/shehu_muhammed.webp';
 import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 
 
+// Import Merchandise pictures
+
+import Bottle from '../media/images/merchandise/Bottle.jpg';
+import StringBag from '../media/images/merchandise/String Bag.jpg';
+import Tshirt from '../media/images/merchandise/T Shirt.jpg';
+
+
+// Merchandise data 
+export const MerchandiseData=[ 
+    {
+        "name": "T-shirt",
+        "price": "#5,000",
+        "picture": Tshirt,
+        "link": "",
+    },
+    {
+        "name": "String Bag",
+        "price": "#4,500",
+        "picture": StringBag,
+        "link": "",
+    },
+    {
+        "name": "Bottle",
+        "price": "#7,500",
+        "picture": Bottle,
+        "link": "",
+    }
+
+]
+
+
+
+
 
 // Social media data 
 
