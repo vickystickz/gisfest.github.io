@@ -6,7 +6,7 @@ import { MerchandiseData } from '../../utils/data';
 const Merchandise = () => {
   return (
     <div className='flexbox product-container'>
-        <h2>Get Your Merches</h2>
+        <h1>Get Your Merches</h1>
       <div className="merchandise-conatiner grid-container">
         {MerchandiseData.map((item, id)=> {
             return(
