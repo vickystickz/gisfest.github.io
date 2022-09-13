@@ -67,7 +67,6 @@ const HomePage = () =>{
                     <p>If your organization is interested in sponsoring the GISfest event, kindly go through our sponsorship deck.</p>
                     <p>Please click <a href="https://drive.google.com/file/d/1VG_UmUuGMQV0opTafsMTKSBP_2QJ6ai3/view?usp=sharing" rel="noreferrer" target='_blank' style={{textDecoration:'underline'}}>here</a> to download our sponsorship deck.</p>
                 </div>
-                <Merchandise />
                 <h1 className="section-title">Agenda</h1>
                 <div className='page-content schedule-container '>
                                
@@ -162,10 +161,8 @@ const HomePage = () =>{
                    </div>
                    
                 </div>
-        
-               
-        
-                </div> 
+                </div>
+                <Merchandise /> 
                 <h1 className="section-title">The planning team!</h1>
                 <div className='page-content'>
                 {teamData.map((Team,index) => {
