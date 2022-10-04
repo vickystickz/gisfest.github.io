@@ -12,7 +12,7 @@ const Header = () => {
     const [fixHeader, setFixHeader] = useState(false);
 
     const fixHeaderOnScroll = () => {
-      if(window.scrollY >= 5) {
+      if(window.scrollY >= 6) {
         setFixHeader(true)
       }else{
         setFixHeader(false)
@@ -35,7 +35,7 @@ const Header = () => {
             {MenuItems.map((item,index) => {
                 return (
                     <li key={index}>
-                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive:isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
+                        <NavLink exact="true" to={item.url} onClick={handleClick} className={({ isActive : isNavActive }) => isNavActive ? "nav-link-active" : `${item.cName}`}>
                         {item.title}
                         </NavLink>  
                     </li>

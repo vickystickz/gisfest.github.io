@@ -21,19 +21,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 7vh;
+    padding-top: 3.7vh;
 }
 
 .hero-info{
     background-color: black;
     color:#fff;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
-    width: var(--hero-info-width);
+    min-width: 40%;
     opacity: 0.8;
     margin-bottom: 2rem;
     border-radius:3px;
-   
 }
 
 .cta-button{
@@ -41,6 +40,8 @@
     flex-direction: row;
     gap: 1rem;
     color:#fff;
+    margin-top: 15px;
+    padding-top:16px;
 }
 
 .cta-button button:hover{
@@ -51,7 +52,6 @@
     border: none;
     background-color: var(--brand-red);
     border-radius:3px;
-
     color:#fff;
 }
 
@@ -121,7 +121,7 @@ main h1:nth-child(even){
 
 .section-title{
     text-align: center;
-    margin-top: 2px;
+    margin-top: 3rem;
     margin-bottom: 2px;
 }
 .sponsor-logo{

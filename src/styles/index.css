@@ -7,9 +7,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 
 body {
@@ -18,7 +15,24 @@ body {
   font-family: "Montserrat";
   background-color: var(--background-white) ;
   scroll-behavior: smooth;
+}
 
+::-webkit-scrollbar {
+  height: 12px;
+  width: 6px;
+  background: var(--background-white);
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--background-black);
+  -webkit-border-radius: 2ex;
+  width: 20px;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
 }
 
 a {
@@ -77,7 +91,7 @@ ul {
 
     /* Home Styling */
 
-  --hero-info-width: 60%;
+  --hero-info-width: inherit;
   --hero-info-h2-font-size:1.5em;
   --hero-height: 100vh;
   --hero-background-position: none;
@@ -108,6 +122,21 @@ ul {
      --columnn-2-grid-template-columns: 70% 30%;
      --poster-deadline-height: 330px;
     --poster-deadline-width:90%;
+
+    /* Countdown component styling */
+    --countdown-content-time-padding: 10px;
+    --countdown-content-info-font-size: 15px;
+    --countdown-content-span-padding: 9px;
+    --countdown-content-span-line-height: 37px;
+    --countdown-content-small-text: 14px;
+
+
+    /* home:hero component styling */
+    --hero-height: 115vh;
+
+
+    --merchandise-container-grid-template-columns: repeat(3, 1fr);
+    --merchandise-container-grid-gap:70px;
 }
 
 
@@ -127,6 +156,15 @@ ul {
     --speaker-container-picture-height:400px;
     --speaker-container-picture-width:100%;
     --main-grid-template-columns:1fr;
+     /* Countdown component  */
+    --countdown-content-span-line-height: 37px;
+    --countdown-content-time-padding: 9px 9px 0px 9px;
+    --countdown-content-span-padding: 3px;
+    --countdown-content-info-font-size: 15px;
+     --countdown-content-small-text: 10px;
+    
+
+
   }
 }
 
@@ -140,12 +178,12 @@ ul {
 
 
         /* Home Styling */
-      --hero-info-width: 90%;
+      --hero-info-width: inherit;
       --hero-info-h2-font-size:18px;
       
 
 
-      --hero-height: 55vh;
+      --hero-height: 70vh;
       --hero-background-position: center;
       --main-grid-template-columns: 1fr;
 
@@ -156,6 +194,7 @@ ul {
       /* Gallery */
 
       --gallery-container-grid-template-columns: 1fr;
+      --merchandise-container-grid-template-columns: 1fr;
 
       /* Schedule */
       --button-padding: 13px;
@@ -164,7 +203,7 @@ ul {
 
        --speaker-container-flex-direction:column;
 
-
+  
   }
 }
 
@@ -191,6 +230,8 @@ ul {
        --poster-deadline-height: 250px;
 
        --gallery-container-grid-template-columns: 1fr;
+       --merchandise-container-grid-gap:45px;
+
 
     }
 }
@@ -260,6 +301,12 @@ ul {
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
 
+    /* home:hero component styling */
+    --hero-height: 91vh;
+
+    --merchandise-container-grid-template-columns: 1fr;
+    --merchandise-container-grid-gap:45px;
+
 }
 
 }
@@ -282,4 +329,3 @@ ul {
      
     }
 }
-
