@@ -315,7 +315,7 @@ export const FAQData = [
     {
         "id": 4,
         "Question":"How do I become a Speaker?",
-        "Answer":"Submit your session ideas to the Call for Speakers by September 11th, 2022."
+        "Answer":"Submit your session ideas to the Call for Speakers by October 15th, 2022."
     },
     {
         "id": 5,
