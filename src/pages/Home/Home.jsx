@@ -30,7 +30,7 @@ const HomePage = () =>{
                         </div>
                         <div className="hero-info">
                             <h2>11 - 12th | November, 2022.</h2>
-                            <h2>Hybrid</h2>
+                            <h2>Virtual</h2>
                             <CountDown/>
                         </div>
                         <div className="cta-button">
