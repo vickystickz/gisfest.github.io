@@ -300,18 +300,13 @@ export const FAQData = [
     {
         "id": 0,
         "Question":"When and where will GISfest take place?",
-        "Answer":"GISfest 2022 will take place on the 11-12th of November. The conference will take place at Lagos, Nigeria."
+        "Answer":"GISfest 2022 will hold virtually on the 11-12th of November."
     },
     {
         "id": 1,
         "Question":"What is the ticket cost for GISfest?",
         "Answer":"The ticket cost is $5USD for students and $12 for Professionals. Transactions will be charged in your local currency."
     },
-    {
-        "id": 2,
-        "Question":"What is included in the ticket?",
-        "Answer":"You will receive access to GISfest (in-person) including all sessions and social activities."
-     },
     {
         "id": 3,
         "Question":"What is the refund policy?",
@@ -331,11 +326,6 @@ export const FAQData = [
         "id": 6,
         "Question":"Will sessions be recorded?",
         "Answer":"All conference sessions at GISfest 2022 will be recorded and available to attendees after the event."
-    },
-    {
-        "id": 7,
-        "Question":"I am coming from abroad and will need invitation letter for Visa application, what is the procedure?",
-        "Answer":`Please send a request to visa@gisfest.org and we would support you with your visa application.`
     },
     {
         "id": 8,
