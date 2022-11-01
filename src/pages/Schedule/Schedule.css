@@ -55,6 +55,7 @@
     background-color: var(--brand-red);
     text-align: center;
     font-size: 17px;
+    border-radius: 10px;
     width: var(--agenda-time-width);
     line-height: 38px;
     color: #fff;
@@ -121,7 +122,7 @@
 }
 
 .session-content {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
 }
 
