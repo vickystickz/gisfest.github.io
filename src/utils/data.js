@@ -592,18 +592,9 @@ export const agendaData = [
                 "title": "Workshop(Room1)",
                 "Speaker": "Aremu David, Founder, The Geospatial Hub",
                 "sessionTitle": "Introduction to Google Earth Engine: A cloud computing platform for earth observation data and analysis",
-                "sessionContent": `
-
-
-
-
-                A cloud computing platform called Google Earth Engine  was created to store and analyze enormous data sets (at the petabyte scale) for analysis and decision-making. 
-                Following the 2008 release of the Landsat series for free, Google saved all the data sets  (https://earthengine.google.com/datasets/) and linked them to the cloud computing
-                 engine for open source use. 
-                
-                The current archive of data includes those from other satellites, as well as Geographic Information Systems based vector data sets, social, demographic, weather, digital 
-                elevation models, and climate data layers. The front-end's simplicity and usability make it an ideal setting for the creation of interactive data and algorithms. 
-                Users can also add and curate their own data and collections, with all processing handled by Google's cloud resources. 
+                "sessionContent": `A cloud computing platform called Google Earth Engine  was created to store and analyze enormous data sets (at the petabyte scale) for analysis and decision-making. 
+                 Following the 2008 release of the Landsat series for free, Google saved all the data sets  (https://earthengine.google.com/datasets/) and linked them to the cloud computing engine for open source use. The current archive of data includes those from other satellites, as well as Geographic Information Systems based vector data sets, social, demographic, weather, digital 
+                elevation models, and climate data layers. The front-end's simplicity and usability make it an ideal setting for the creation of interactive data and algorithms. Users can also add and curate their own data and collections, with all processing handled by Google's cloud resources. 
                 `
             },
             {
