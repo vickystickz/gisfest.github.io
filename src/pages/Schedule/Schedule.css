@@ -48,7 +48,7 @@
     margin-bottom: 10px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(255, 255, 255, .4) 0px 3px 6px;
-    
+    flex-direction: column;
    }
 
 
@@ -63,10 +63,11 @@
     color: #fff;
 }
 
-.agenda-schedule-content {
+.agenda-schedule-content  {
     padding: 10px;
    
 }
+
 
 .agenda-schedule-content > *{
     padding-bottom: 10px;
@@ -84,7 +85,7 @@
 
 
 .session-content {
-    font-size: 14px;
+    font-size: 16px;
    
 }
 
