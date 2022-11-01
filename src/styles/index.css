@@ -137,6 +137,8 @@ ul {
 
     --merchandise-container-grid-template-columns: repeat(3, 1fr);
     --merchandise-container-grid-gap:70px;
+
+    --speaker-container-grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -195,6 +197,7 @@ ul {
 
       --gallery-container-grid-template-columns: 1fr;
       --merchandise-container-grid-template-columns: 1fr;
+      --speaker-container-grid-template-columns: 1fr;
 
       /* Schedule */
       --button-padding: 13px;

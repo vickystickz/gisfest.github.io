@@ -22,6 +22,18 @@ import justice_obaje from '../media/images/team/justice_obaje.webp';
 import shehu_muhammed from '../media/images/team/shehu_muhammed.webp';
 import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 
+/// import team pictures
+import taslim_saludeen from '../media/images/speakers/Taslim_Saladueen.jpg';
+import Cyhana_Williams from '../media/images/speakers/Cyhana_Williams.jpg';
+import Boineelo_O from '../media/images/speakers/Boineelo_O.jpg';
+import Dr_Clara_Mundia from '../media/images/speakers/Dr_Clara_Mundia.jpg';
+import Rowe_Frasisco from '../media/images/speakers/Rowe_Frasisco.jpg';
+import Linda_Ochwada from '../media/images/speakers/Linda_Ochwada.jpg';
+import Matt_Forest from '../media/images/speakers/Matt_Forest.jpg';
+import Somide_Olaoye from '../media/images/speakers/Somide_Olaoye.jpg';
+import Michael_Manalili from '../media/images/speakers/Michael_Manalili.jpg';
+import Esther_Onyekachi from '../media/images/speakers/Esther_Onyekachi.jpg';
+import Marie_Makuate from '../media/images/speakers/Marie_Makuate.jfif';
 
 // Import Merchandise pictures
 
@@ -315,7 +327,7 @@ export const FAQData = [
     {
         "id": 4,
         "Question":"How do I become a Speaker?",
-        "Answer":"Submit your session ideas to the Call for Speakers by September 11th, 2022."
+        "Answer":"Submit your session ideas to the Call for Speakers by October 15th, 2022."
     },
     {
         "id": 5,
@@ -434,35 +446,85 @@ export const agendaData = [
 ]
 
 
+
+
+
 export const speakerData = [
     {
-        "name": "Claire Halleux",
-        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
-        "lesson": "Lessons learned from a building footprints import",
-        "picture": oluwadamilola_salua
+        "name": "Cyhana Williams",
+        "JDC": "User Experience Researcher @ Microsoft",
+        "picture": Cyhana_Williams,
+        "color": "#c91f64"
+    },
+     {
+        "name": "Bioneelo Moyo",
+        "JDC": "Geospatial Data Scientist and Certified Environmental Specialist",
+        "picture": Boineelo_O,
+        "color": "#c91f64"
+    },
+    {
+        "name": "Taslim Saladueen",
+        "JDC": "Census Field Technology Consultant @ National Population Commission",
+        "picture": taslim_saludeen,
+        "color": "#c91f64"
 
     },
     {
-        "name": "Claire Halleux",
-        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
-        "lesson": "Lessons learned from a building footprints import",
-        "picture": oluwadamilola_salua
+        "name": "Dr. Clara Mundia",
+        "JDC": "Director of Location Analytics @ Dalberg Research Limited",
+        "picture": Dr_Clara_Mundia,
+        "color": "#c91f64"
 
     },
     {
-        "name": "Claire Halleux",
-        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
-        "lesson": "Lessons learned from a building footprints import",
-        "picture": oluwadamilola_salua
+        "name": "Rowe Francisco",
+        "JDC": "Lead Geographic Data Science lab & Senior Lecturer, Univerisity of Liverpool",
+        "picture": Rowe_Frasisco,
+        "color": "#f49c0f"
+
+    },
+     {
+        "name": "Michael Manalili",
+        "JDC": "Development and Innovation lead @ UN World Food Programme (WFP) Emergencies",
+        "picture": Michael_Manalili,
+        "color": "#f49c0f"
 
     },
     {
-        "name": "Claire Halleux",
-        "bioData": "From mid-2020 to 2021, a number of mappers in both Uganda and the DRC joined a participatory buildings footprint import. The data was produced by Ecopia based on an imagery mosaic provided by Maxar and contained more than 6.6 millions building footprints. During this session, we’ll explain what worked well and less well and what we learned from the process of integrating this data into the OpenStreetMap database.",
-        "lesson": "Lessons learned from a building footprints import",
-        "picture": oluwadamilola_salua
+        "name": "Linda Ochawada",
+        "JDC": "Product Evangelist @ Dealcode",
+        "picture": Linda_Ochwada,
+        "color": "#f49c0f"
 
-    }
+    },
+    {
+        "name": "Matt Forest",
+        "JDC": "Solutions Engineering @ CARTO",
+        "picture": Matt_Forest,
+        "color": "#f49c0f"
+
+    },
+    {
+        "name": "Esther Onyekachi",
+        "JDC": "Project Manager @ Esri UK",
+        "picture": Esther_Onyekachi,
+        "color": "#c91f64"
+
+    },
+    {
+        "name": "Somide Olaoye",
+        "JDC": "Innovation Software Developer - GIS (Consultant) @ UN World Food Programme",
+        "picture": Somide_Olaoye,
+        "color": "#c91f64"
+
+    },
+    {
+        "name": "Marie_Makuate",
+        "JDC": "Researcher and Geospatial Analyst",
+        "picture": Marie_Makuate,
+        "color": "#c91f64"
+
+    },
 ]
 
 

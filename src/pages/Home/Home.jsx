@@ -11,6 +11,7 @@ import { agendaData,teamData,talkTypes,workshopTypes} from '../../utils/data';
 import TeamCard from '../../components/TeamCard/TeamCard';
 import CountDown from "../../components/CountDown/CountDown";
 import Merchandise from "../../components/Merchandise/Merchandise";
+import Speakers from "../../components/Speakers/Speakers";
 
 
 const HomePage = () =>{
@@ -31,7 +32,7 @@ const HomePage = () =>{
                         </div>
                         <div className="hero-info">
                             <h2>11 - 12th | November, 2022.</h2>
-                            <h2>Hybrid</h2>
+                            <h2>Virtual</h2>
                             <CountDown/>
                         </div>
                         <div className="cta-button">
@@ -57,19 +58,8 @@ const HomePage = () =>{
                 
                 <EmailSubscription />
 
-                <div className="sponsors">
-                    <h1>Sponsors</h1>
-                    <p>Coming Soon!</p>
-                    <div className="sponsor-logo">
-                        Your Logo here
-                    </div>
-                    <h1>Call for Sponsorship</h1>
-                    <p>If your organization is interested in sponsoring the GISfest event, kindly go through our sponsorship deck.</p>
-                    <p>Please click <a href="https://drive.google.com/file/d/1VG_UmUuGMQV0opTafsMTKSBP_2QJ6ai3/view?usp=sharing" rel="noreferrer" target='_blank' style={{textDecoration:'underline'}}>here</a> to download our sponsorship deck.</p>
-                </div>
                 <h1 className="section-title">Agenda</h1>
-                <div className='page-content schedule-container '>
-                               
+                <div className='page-content schedule-container '>            
                     <div className='agenda-content'>
                         {agendaData.map((agendaItem, index) => {
                         return (
@@ -92,6 +82,7 @@ const HomePage = () =>{
 
                     </div>
                 </div>
+                <Speakers />
 
                 <h1 className="section-title">Call for speakers</h1>
                 <div className='page-content grid-container column-2'>
