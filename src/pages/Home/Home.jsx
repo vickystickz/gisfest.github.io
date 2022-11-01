@@ -7,7 +7,7 @@ import SEO from '../SEO'
 import {Link} from 'react-router-dom';
 
 import '../Schedule/Schedule.css';
-import { agendaData,teamData,talkTypes,workshopTypes} from '../../utils/data';
+import { teamData,talkTypes,workshopTypes} from '../../utils/data';
 import TeamCard from '../../components/TeamCard/TeamCard';
 import CountDown from "../../components/CountDown/CountDown";
 import Merchandise from "../../components/Merchandise/Merchandise";
@@ -57,33 +57,8 @@ const HomePage = () =>{
                 </main>
                 
                 <EmailSubscription />
-
-                <h1 className="section-title">Agenda</h1>
-                <div className='page-content schedule-container '>            
-                    <div className='agenda-content'>
-                        {agendaData.map((agendaItem, index) => {
-                        return (
-                            <div key={index} className="agenda-day-content">
-                            <div className='date-container'>{agendaItem.day}</div>
-                            {agendaItem.timeContent.map((agendaSchedule,id) => {
-                                return (
-                                <div className='agenda-schedule-container' key={id}>
-                                    <div className='agenda-schedule-content'>
-                                    <h3>{agendaSchedule.title}</h3>
-                                    <p className='session-content'>Focus: {agendaSchedule.sessionContent}</p>
-                                    </div>
-                                </div>
-                                )
-                            })}
-                            
-                            </div>
-                        )
-                        })}
-
-                    </div>
-                </div>
+                    
                 <Speakers />
-
                 <h1 className="section-title">Call for speakers</h1>
                 <div className='page-content grid-container column-2'>
                 <div className='paper-info'>
@@ -174,6 +149,8 @@ const HomePage = () =>{
                           </div>
                       )
                   })}
+
+
               </div>
             </div>
     )

@@ -22,7 +22,7 @@ import justice_obaje from '../media/images/team/justice_obaje.webp';
 import shehu_muhammed from '../media/images/team/shehu_muhammed.webp';
 import oluwadamilola_salua from '../media/images/team/oluwadamilola_salau.webp';
 
-/// import team pictures
+/// import speakers pictures
 import taslim_saludeen from '../media/images/speakers/Taslim_Saladueen.jpg';
 import Cyhana_Williams from '../media/images/speakers/Cyhana_Williams.jpg';
 import Boineelo_O from '../media/images/speakers/Boineelo_O.jpg';
@@ -34,7 +34,8 @@ import Somide_Olaoye from '../media/images/speakers/Somide_Olaoye.jpg';
 import Michael_Manalili from '../media/images/speakers/Michael_Manalili.jpg';
 import Esther_Onyekachi from '../media/images/speakers/Esther_Onyekachi.jpg';
 import Marie_Makuate from '../media/images/speakers/Marie_Makuate.jfif';
-
+import elham_soudy from '../media/images/speakers/Elham Soudy - WiG.jpg'
+import timmera from '../media/images/speakers/Timera.jpg'
 // Import Merchandise pictures
 
 import Bottle from '../media/images/merchandise/Bottle.webp';
@@ -354,95 +355,165 @@ export const agendaData = [
         "day": "DAY 1: November 11th",
         "timeContent": [
             {
-                "time": "10:00 am",
-                "title": "Career Panel Session (Non-technical)",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping ",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "Learning about what it takes to prepare and be successful for a career in Entrepreneurship, Academia, or NGO."
+                "time": "9:20 - 9:30am",
+                "title": "Opening Remark",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Opening Remark",
+                "sessionContent": "Opening Remark"
             },
             {
-                "time": "10:00 am",
-                "title": "Innovative/Enterprise use case of geospatial technology",
-                "Speaker": "John Oluwatoba",
-                "tag": "Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "How companies are innovating around geospatial technology. We want to capture as many sectors as possible."
+                "time": "9:30 - 9:50am",
+                "title": "Keynote",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Keynote session",
+                "sessionContent": "Keynote session"
             },
             {
-                "time": "10:00 am",
-                "title": "Workshop",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "Learning interesting and new tools in the industry."
+                "time": "9:55 - 10:15am",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Kumbirai Nicholas, Zimbabwe National Point of Contact, Space Generation Advisory Council",
+                "sessionTitle": "An Integrated Medical Sample Transportation System (IMSTS)",
+                "sessionContent": "Effective sample collection and transportation are key in disease diagnosis and in monitoring the success or failure of treatment, as well as in supporting diagnosis and management of any attendant adverse effects of treatment. The current system for moving samples is not harmonized and has brought about quite a several challenges which include but are not limited to a lack of ineffective coordination between the collection and receiving ends for samples, and a lack of timely transition of results to facilities resulting in a longer turn-around time. The goal of the integrated medical sample transportation system is to ensure that the existing health structures in Zimbabwe (the Ministry of Health and Child Care of Zimbabwe) have a strong, sustainable, and well-coordinated IMSTS for use by both partner and non-partner-funded health institutions which is well managed for improved health service delivery in Zimbabwe."
             },
             {
-                "time": "10:00 am",
-                "title": "Industry opportunities",
-                "Speaker": "John Oluwatoba",
-                "tag": "Career",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "Recruiting/hiring and how professionals can find different job opportunities."
+                "time": "10:15 - 10:35am",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Antidius Kawamala, Geospatial Researcher, RootGIS",
+                "sessionTitle": "Tanga Mapping with Participatory GIS",
+                "sessionContent": `Promoting a data-driven decision making culture in Tanga under living lab initiative, we are complementing the global objective i.e. Creating a free editable 
+                geographic database of the world by various mapping activities around the region. The initiative uses local member by building capacity and University Students. 
+                These mappings have been putting the missing pieces of the community on the map and addressing challenges they face so far. The usage of GIS data as a tool 
+                for community as a decision-making data tool can help in timely action and on-time problem-solving.`
+            },
+
+            {
+                "time": "10:35 - 10:55am",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Priscilla Mbasi, GIS Analyst, Zipline",
+                "sessionTitle": "Flying to save lives with GIS (Transportation and Logistics/Health)",
+                "sessionContent": `I never thought I could use GIS to save lives. I thought saving lives was limited to Doctors, nurses and health professionals only. But working at Zipline has afforded me the opportunity to save lives by using geospatial analysis skills. Zipline is the largest medical drone delivery Company in the world now. With over 25 million miles flown, we deliver blood, vaccines and other medical products to health facilities (in deprived areas) in countries such as Rwanda, Ghana, Japan, some states in the USA and Nigeria and expanding quickly 
+                to other parts of Africa. When the covid-19 pandemic was at its peak, we were instrumental in the delivery of vaccines and PPEs in Ghana and USA.Zipline has been able to achieve this through the hard work of teams such as the fulfillment and flight operations teams, health systems integrations,  Go to market and most importantly the GIS team. The GIS Team at Zipline, basically helps the company to make important 
+                decisions regarding where to place a distribution center (DC). The site selection process takes into consideration the countries' keep out areas,  population coverage, number of health facilities, access to basic amenities among other things. 
+                The team comprises engineers, developers and analysts who build tools and also manage all geospatial data necessary to make the drone’s flight from the DCs to the health facilities or delivery locations safe and successful. Some of the GIS processes the team handles includes spatial analysis, UAV data capture and processing, database management, 3D spatial modeling, spatial programming etc. 
+                My talk will introduce Zipline as a successful medical drone logistics company and a deep but quick dive into how GIS is used to save lives at Zipline. I am hopeful that in the end, the audience will see another side of GIS that I absolutely love and come to know that there is more to GIS than just giving answers to a “where” question.`
             },
             {
-                "time": "10:00 am",
-                "title": "Women in GIS panel session",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "How women can develop useful skillset and how they can find and leverage on mentorship and communities."
+                "time": "11:00 - 12:00PM",
+                "title": "Career Panel Session (Non-Technical)",
+                "Speaker": "Michael Manalili, Esther Moore and Taslim Salaudeen",
+                "sessionTitle": "Career Panel Session (Non-Technical)",
+                "sessionContent": `Learning about what it takes to prepare and be successful for a career in the industry. This would also include new technical career paths.`
             },
+            {
+                "time": "12:00 - 1:00pm",
+                "title": "Workshop(Room1)",
+                "Speaker": "Emmanuel Jolaiya",
+                "sessionTitle": "Building a Custom Geocoding Service using Open Source Tools",
+                "sessionContent": `
+                A lot of products are powered by geocoding services either forward geocoding or reverse geocoding. For example, when you search for an address on google maps, 
+                Facebook Maps, Bolt or anywhere on the web, it is powered by an underlying geocoding service to give you the results. Unfortunately, this service costs thousands of 
+                dollars yearly to integrate in your products especially using geocoding services from commercial organization.
+                
+                To optimize cost especially for startups with product(s) that is powered by geocoding service, it is therefore important to explore some open-source alternatives and 
+                deploy an in-house solution using open-source tools, and this will be the focus of this workshop -- to guide participants on how to deploy a custom geocoding service 
+                using open source tools.
+                
+                At the end of this workshop, participants will be confident in deploying their custom geocoding service for the whole of Nigeria, Africa, World, State or
+                 any location of their choice, for use in their organizations, research or even as a potential startup-- Geocoding As A Service.
+                
+                Requirements:
+                -  Docker 
+                - Command line
+                - Willingness to learn
+                - Basic technical skills`
+            },
+            {
+                "time": "12:00 - 1:00pm",
+                "title": "Workshop(Room2)",
+                "Speaker": "Krishna Lodha",
+                "sessionTitle": "Getting started with GeoServer + Geoserver Styling Guide",
+                "sessionContent": `
+                Geoserver is one of the most widely used geospatial data sharing tool in open source realm. This software is built using JAVA and has good community back up. 
+
+                In this workshop we'll dive deep into geoserver covering following topics 
+                1. Installation of Geoserver on various systems
+                2. Introduction to Interface and REST face of Geoserver
+                3. Publishing Vector and raster layers from various sources (e.g. File, Database, Cloud, etc.) 
+                4. Styling Data based on Conditions, zoom levels, etc.
+                5. Accessing Data using OGC standards (WMS, WFS, GWC, etc.) 
+                6. Securing Data ( Users, roles, etc.) 
+                7. Optimising Performance (logs, stress, etc.) 
+                8. Adding extensions to Geoserver
+                9. Filtering Data in geoserver`
+            },
+            {
+                "time": "1:00 - 2:30pm",
+                "title": "Lunch Break/Networking"
+            },
+            {
+                "time": "2:30 - 02:50pm",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Franscisco Rowe, Lead, Geographic Data Science Lab & Senior Lecturer, University of Liverpool",
+                "sessionTitle": "Use of new forms of data for human mobility",
+                "sessionContent": `This talk presents a case study of championing and delivering better outcomes in rural and off-grid electrification using geospatial tools, applications and 
+                methodology in the international development cooperation context. 
+                
+                
+                This talk will showcase the innovative work being done by the Electrification Planning Unit of the Nigeria Energy Support Programme, NESP, A technical assistance 
+                programme by the republic of Germany to Nigeria funded by Germany and the European Union. The programme developed activity tracks on Data collection, 
+                Data management, Analytics and Dissemination which are all integrated into an all-in-one platform – The Nigeria SE4ALL Portal (https://nigeriase4all.gov.ng/),
+                
+                The platform comprises a website, thematic web apps, a data manager, and a minigrid monitor. The thematic web apps are for three specific market segments 
+                targeting rural and off-grid electrification: Mini-Grids, Power Sector, and Solar Home Systems.
+                
+                The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
+                private off-grid power project developers now have a potent tool to empirically prospect factually for suitable locations for different electricity access 
+                solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`
+            },
+            {
+                "time": "2:50 - 03:10pm",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Temitope Omowumi, Electrification Planning Advisor, NESP",
+                "sessionTitle": "Data-Driven Geospatial Eletrification Planning",
+                "sessionContent": `This talk presents a case study of championing and delivering better outcomes in rural and off-grid electrification using geospatial tools, applications and 
+                methodology in the international development cooperation context. 
+                
+                
+                This talk will showcase the innovative work being done by the Electrification Planning Unit of the Nigeria Energy Support Programme, NESP, A technical assistance 
+                programme by the republic of Germany to Nigeria funded by Germany and the European Union. The programme developed activity tracks on Data collection, 
+                Data management, Analytics and Dissemination which are all integrated into an all-in-one platform – The Nigeria SE4ALL Portal (https://nigeriase4all.gov.ng/),
+                
+                The platform comprises a website, thematic web apps, a data manager, and a minigrid monitor. The thematic web apps are for three specific market segments 
+                targeting rural and off-grid electrification: Mini-Grids, Power Sector, and Solar Home Systems.
+                
+                The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
+                private off-grid power project developers now have a potent tool to empirically prospect factually for suitable locations for different electricity access 
+                solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`
+            },
+
+            {
+                "time": "2:50 - 03:10pm",
+                "title": "Industry Opportunities",
+                "Speaker": "Geospatially Podcast",
+                "sessionTitle": "Geocommunities and Volunteering",
+                "sessionContent": `Geocommunities and Volunteering`
+            },{
+                "time": "3:30 - 04:20pm",
+                "title": "Geocommunities and Volunteering",
+                "Speaker": "AWiGIS",
+                "sessionTitle": "Geocommunities and Volunteering",
+                "sessionContent": `Geocommunities and Volunteering`
+            },{
+                "time": "3:30 - 04:20pm",
+                "title": "Closing remark",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Closing remark",
+                "sessionContent": `Closing remark`
+            },
+           
             
         ]
     },
-    {
-        "day": "DAY 2: November 12th",
-        "timeContent": [
-            {
-                "time": "10:00 am",
-                "title": "Career Panel Session (Technical)",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping ",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "learning about what it takes to prepare and be successful for a career in freelancing and the industry. This would also include new technical career paths."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Innovative/Enterprise use case of geospatial technology",
-                "Speaker": "John Oluwatoba",
-                "tag": "Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "How companies are innovating around geospatial technology. We want to capture as many sectors as possible."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Workshop",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "Learning interesting and new tools in the industry."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Idea Pitch & Hackathon",
-                "Speaker": "John Oluwatoba",
-                "tag": "Career",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "Encouraging innovation in the geospatial industry (Stay tuned for more info)."
-            },
-            {
-                "time": "10:00 am",
-                "title": "Geospatial Communities & Volunteering",
-                "Speaker": "John Oluwatoba",
-                "tag": "Mapping | Cartography | Web mapping",
-                "sessionTitle": "lessons learned from a building footprints import",
-                "sessionContent": "How people can kick off their careers by volunteering and joining communities. This would focus on Non-profit organizations."
-            },
-            
-        ]
-
-    }
 ]
 
 
@@ -522,6 +593,20 @@ export const speakerData = [
         "name": "Marie_Makuate",
         "JDC": "Researcher and Geospatial Analyst",
         "picture": Marie_Makuate,
+        "color": "#c91f64"
+
+        
+    },
+    {
+        "name": "Elham Ahmed Soudy",
+        "JDC": "GIS Instructor @ Esri North Africa",
+        "picture": elham_soudy,
+        "color": "#c91f64"
+
+    },{
+        "name": "Timmera Whaley Omidire",
+        "JDC": "GIS & Map Quality Analyst @ Meta",
+        "picture": timmera,
         "color": "#c91f64"
 
     },
