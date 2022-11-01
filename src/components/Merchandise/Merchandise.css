@@ -12,7 +12,9 @@
 
 .merchandise-conatiner {
     grid-template-columns: var(--merchandise-container-grid-template-columns);
-    padding:8rem 1rem; 
+    width:80%;
+    margin: auto;
+    padding:3rem 1rem; 
     gap: var(--merchandise-container-grid-gap);
     text-align:center;
 }
