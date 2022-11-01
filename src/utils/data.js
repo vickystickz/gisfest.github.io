@@ -400,14 +400,17 @@ export const agendaData = [
             {
                 "time": "11:00 - 12:00PM",
                 "title": "Career Panel Session (Non-Technical)",
-                "Speaker": "Michael Manalili, Esther Moore and Taslim Salaudeen",
+                "Speaker": `Michael Manalili, Development and Innovation Lead, UN World Food Programmes (WFP) | 
+                Esther Moore, Project Manager, Esri Uk | 
+                Taslim Salaudeen, Census Field Technology Consultant, National Population Comission`,
                 "sessionTitle": "Career Panel Session (Non-Technical)",
-                "sessionContent": `Learning about what it takes to prepare and be successful for a career in the industry. This would also include new technical career paths.`
+                "sessionContent": `The non-technical career session is a roundtable conversation on the pillars, structures, and guides needed to grow and professionally advance in non-technical roles in 
+                academia, consultancy, public, private, and social sectors.`
             },
             {
                 "time": "12:00 - 1:00pm",
                 "title": "Workshop(Room1)",
-                "Speaker": "Emmanuel Jolaiya",
+                "Speaker": "Emmanuel Jolaiya, Geospatial Software Engineer, Founder Spatialnode",
                 "sessionTitle": "Building a Custom Geocoding Service using Open Source Tools",
                 "sessionContent": `
                 A lot of products are powered by geocoding services either forward geocoding or reverse geocoding. For example, when you search for an address on google maps, 
@@ -430,7 +433,7 @@ export const agendaData = [
             {
                 "time": "12:00 - 1:00pm",
                 "title": "Workshop(Room2)",
-                "Speaker": "Krishna Lodha",
+                "Speaker": "Krishna Lodha, CEO, Rotten Grapes pvt. ltd.",
                 "sessionTitle": "Getting started with GeoServer + Geoserver Styling Guide",
                 "sessionContent": `
                 Geoserver is one of the most widely used geospatial data sharing tool in open source realm. This software is built using JAVA and has good community back up. 
@@ -456,17 +459,10 @@ export const agendaData = [
                 "Speaker": "Franscisco Rowe, Lead, Geographic Data Science Lab & Senior Lecturer, University of Liverpool",
                 "sessionTitle": "Use of new forms of data for human mobility",
                 "sessionContent": `This talk presents a case study of championing and delivering better outcomes in rural and off-grid electrification using geospatial tools, applications and 
-                methodology in the international development cooperation context. 
-                
-                
-                This talk will showcase the innovative work being done by the Electrification Planning Unit of the Nigeria Energy Support Programme, NESP, A technical assistance 
+                methodology in the international development cooperation context. This talk will showcase the innovative work being done by the Electrification Planning Unit of the Nigeria Energy Support Programme, NESP, A technical assistance 
                 programme by the republic of Germany to Nigeria funded by Germany and the European Union. The programme developed activity tracks on Data collection, 
-                Data management, Analytics and Dissemination which are all integrated into an all-in-one platform – The Nigeria SE4ALL Portal (https://nigeriase4all.gov.ng/),
-                
-                The platform comprises a website, thematic web apps, a data manager, and a minigrid monitor. The thematic web apps are for three specific market segments 
-                targeting rural and off-grid electrification: Mini-Grids, Power Sector, and Solar Home Systems.
-                
-                The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
+                Data management, Analytics and Dissemination which are all integrated into an all-in-one platform – The Nigeria SE4ALL Portal (https://nigeriase4all.gov.ng/),The platform comprises a website, thematic web apps, a data manager, and a minigrid monitor. The thematic web apps are for three specific market segments 
+                targeting rural and off-grid electrification: Mini-Grids, Power Sector, and Solar Home Systems.The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
                 private off-grid power project developers now have a potent tool to empirically prospect factually for suitable locations for different electricity access 
                 solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`
             },
@@ -494,17 +490,158 @@ export const agendaData = [
             {
                 "time": "2:50 - 03:10pm",
                 "title": "Industry Opportunities",
-                "Speaker": "Geospatially Podcast",
-                "sessionTitle": "Geocommunities and Volunteering",
-                "sessionContent": `Geocommunities and Volunteering`
+                "Speaker": "",
+                "sessionTitle": "",
+                "sessionContent": ``
             },{
                 "time": "3:30 - 04:20pm",
                 "title": "Geocommunities and Volunteering",
-                "Speaker": "AWiGIS",
-                "sessionTitle": "Geocommunities and Volunteering",
-                "sessionContent": `Geocommunities and Volunteering`
+                "Speaker": "Chidimma Umeogu, Co-Founder, AWiGIS",
+                "sessionTitle": "Geospatial Communities and Volunteering",
+                "sessionContent": 'A roundtable conversation that will focus on how people can kick off their careers by volunteering and the main core responsibilities and usefulness of Geocommunities'
             },{
                 "time": "3:30 - 04:20pm",
+                "title": "Closing remark",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Closing remark",
+                "sessionContent": `Closing remark`
+            },
+           
+            
+        ]
+    }, {
+        "day": "DAY 2: November 12th",
+        "timeContent": [
+            {
+                "time": "9:20 - 9:30am",
+                "title": "Opening Remark",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Opening Remark",
+                "sessionContent": "Opening Remark"
+            },
+            {
+                "time": "9:30 - 9:50am",
+                "title": "Keynote",
+                "Speaker": "GISfest 2022",
+                "sessionTitle": "Keynote session",
+                "sessionContent": "Keynote session"
+            },
+            {
+                "time": "9:55 - 10:15am",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Youdahe Gebremariam Tsehaye, Founder, Way Maps and Analytics",
+                "sessionTitle": "About Way Maps and Projects",
+                "sessionContent": ""
+            },
+            {
+                "time": "10:15 - 10:35am",
+                "title": "Geo Talk/Geo-innovation",
+                "Speaker": "Ifejube John, Student, University of Twente",
+                "sessionTitle": "Cross-disciplinary approach in GIScience: The pathway to solving real societal problems.",
+                "sessionContent": `Research approaches are largely influenced by respective scientific disciplines. There have been various discourses about the 
+                nature and boundaries of GIScience. In previous years, several researchers in defense of their expertise have tried to carve out GIScience as a discipline, but there have 
+                been too many variations in definitions. In recent years, GIScience is more acceptably described as having a multidisciplinary nature. However, real societal challenges do
+                 not recognize the boundaries built around our definitions of scientific disciplines. Spatial Information is essential to solving local and global challenges. Therefore, research 
+                approaches should be flexible enough to match the complexity of any given problem. This article reviews successful examples of the application of GIScience to different 
+                challenges.  It also recommends an approach to addressing complex problems using spatial information as an integrator of related core knowledge areas. Finally, the 
+                prospects and challenges of transdisciplinary studies are fully highlighted.`
+            },
+
+            {
+                "time": "11:00 - 12:00PM",
+                "title": "Career Panel Session (Technical)",
+                "Speaker": "Linda Ochwada, Matt Forest, Somide Olaoye and Timmera Whaley",
+                "sessionTitle": "Career Panel Session (Technical)",
+                "sessionContent": `The technical career session is a roundtable conversation on the pillars, structures, and guides needed to grow and professionally advance in technical roles in the industry.`
+            },
+            {
+                "time": "12:00 - 1:00pm",
+                "title": "Workshop(Room1)",
+                "Speaker": "Akintola Mercy, YouthMappers Regional Ambassador, Youthmappers",
+                "sessionTitle": "OpenStreetMap Community, JOSM: Beyond Basic Editing",
+                "sessionContent": `This workshop aims to introduce those with JOSM for beginners skills to advanced editing techniques in JOSM. We will provide help with your first steps to plugins 
+                and mapping tools on JOSM,, introduce tips and tricks working with complex shapes, background imageries settings, to do list plugin among others.
+                
+                Having made your first edits with JOSM, there are a couple of tips and tricks to learn to make your daily mapping life in this JOSM easier. JOSM, considered an advanced 
+                mappers tool, is an easy-to-use OSM software that makes mapping in OSM easier and more interesting using plugins and various mapping tools.`
+            },
+            {
+                "time": "12:00 - 1:00pm",
+                "title": "Workshop(Room2)",
+                "Speaker": "Krishna Lodha, CEO, Rotten Grapes pvt. ltd.",
+                "sessionTitle": "Getting Started with OpenLayers",
+                "sessionContent": `Geoserver provides variety of options to configure styling of vector and raster data. Geoserver allows user to write styling using 
+                1. SLD
+                2. CSS
+                3. YSLD
+                4. MBStyling, etc.
+                
+                In this workshop we explore how to style Point, LineString, Polygon, Rasters. We'll cover following tasks
+                1. Attribute based Styling
+                2. Zoom based Styling
+                3. Variable Styling
+                4. Labeling and it's optimisation
+                5. Legends`
+            },
+            {
+                "time": "1:00 - 2:30pm",
+                "title": "Lunch Break/Networking"
+            },
+            {
+                "time": "2:30 - 03:30pm",
+                "title": "Workshop(Room1)",
+                "Speaker": "Aremu David, Founder, The Geospatial Hub",
+                "sessionTitle": "Introduction to Google Earth Engine: A cloud computing platform for earth observation data and analysis",
+                "sessionContent": `
+
+
+
+
+                A cloud computing platform called Google Earth Engine  was created to store and analyze enormous data sets (at the petabyte scale) for analysis and decision-making. 
+                Following the 2008 release of the Landsat series for free, Google saved all the data sets  (https://earthengine.google.com/datasets/) and linked them to the cloud computing
+                 engine for open source use. 
+                
+                The current archive of data includes those from other satellites, as well as Geographic Information Systems based vector data sets, social, demographic, weather, digital 
+                elevation models, and climate data layers. The front-end's simplicity and usability make it an ideal setting for the creation of interactive data and algorithms. 
+                Users can also add and curate their own data and collections, with all processing handled by Google's cloud resources. 
+                `
+            },
+            {
+                "time": "2:30 - 03:30pm",
+                "title": "Workshop(Room2)",
+                "Speaker": "Warrie Warrie, Geospatial Data Scientist, Data Scientist Network (DSN)",
+                "sessionTitle": "Pygeo: A Beginners Guide to Spatial Analysis with Python",
+                "sessionContent": `Python is a high-level, open-sourced and general-purpose programming language and it is the most popular language used in the field of data analysis and science. 
+
+ 
+                The objective of this workshop is geared towards breaking down the basics of spatial data and spatial data analysis using python as a tool and python packages 
+                developed by the GeoPython ecosystem. This workshop is beginner-friendly, but the basic idea and knowledge of python is recommended as a prerequisite for this workshop. 
+                
+                This workshop will first introduce users to the setting up of an anaconda environment to efficiently use python and geospatial python packages. A brief introduction to 
+                python variables and general data types and structures in python.
+                
+                The next section will introduce handling and working with tabular data with pandas and array-like data in NumPy. Using this concept to introduce spatial vector data; its different types and components (point, line, polygon, geometry collection).
+                
+                At the next point, we will explain how to read and preprocess geospatial vector data (buffering, spatial filtering and joining, nearest distance analysis etc.) using geopandas and shapely libraries. 
+                
+                Moving on, this workshop will also introduce working with raster data using rasterio libraries as well as basic raster analytics and preprocessing (zonal statistics, Band explanation). 
+                In addition , the participant of this workshop will be able to do simple raster and vector visualizations (Chlorpoleth Map,  Line Map display) using Nigeria climate and 
+                environmental data as an example.
+                
+                Finally, users will be pointed to an alternative interface to analyse spatial data (QGIS) and cloud computing interface for spatial analytics with 
+                python (GEE (Google Earth Engine and Google Colab))`
+            },
+
+            {
+                "time": "3:30 - 04:15pm",
+                "title": "Women in GIS Career Session",
+                "Speaker": "Cyhana Williams, Marie Makuate, Dr. Clara Mundia, Elham Ahmed Soudy and Boineelo Moyo",
+                "sessionTitle": "Women in GIS Career Session",
+                "sessionContent": `The Women in GIS career session is a roundtable conversation on the pillars and paths to skill development and growth in the geospatial industry with major focus on Women
+
+                `
+            },{
+                "time": "4:15 - 04:30pm",
                 "title": "Closing remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Closing remark",

@@ -25,9 +25,9 @@ const Schedule = () => {
                           <div className='agenda-time'>{agendaSchedule.time}</div>
                             <div className='agenda-schedule-content'>
                               <h3>{agendaSchedule.title}</h3>
-                              <h3> { agendaSchedule.sessionTitle && 'Session Title:'} {agendaSchedule.sessionTitle}</h3>
-                              <p className='session-speaker'>{ agendaSchedule.Speaker && 'Speaker:'} <span style={{fontWeight:'bold'}}>{agendaSchedule.Speaker}</span></p>
-                              <p className='session-content'>{ agendaSchedule.sessionContent && 'Abstract:'} {agendaSchedule.sessionContent}</p>
+                              <h4> { agendaSchedule.sessionTitle && 'Title:'} {agendaSchedule.sessionTitle}</h4>
+                              <h4 className='session-speaker'>{ agendaSchedule.Speaker && 'Speaker(s):'} <span style={{fontWeight:'bold'}}>{agendaSchedule.Speaker}</span></h4>
+                              <p className='session-content'>{agendaSchedule.sessionContent}</p>
                             </div>
                           </div>
                         )
