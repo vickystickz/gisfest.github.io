@@ -413,7 +413,7 @@ export const agendaData = [
                 "Speaker": "Emmanuel Jolaiya, Geospatial Software Engineer, Founder Spatialnode",
                 "sessionTitle": "Building a Custom Geocoding Service using Open Source Tools",
                 "sessionContent": `
-                A lot of products are powered by geocoding services either forward geocoding or reverse geocoding. For example, when you search for an address on google maps, 
+                A lot of products are powered by geocoding services either forward geocoding or reverse geocoding. For example, when you search for an address on Google Maps, 
                 Facebook Maps, Bolt or anywhere on the web, it is powered by an underlying geocoding service to give you the results. Unfortunately, this service costs thousands of 
                 dollars yearly to integrate in your products especially using geocoding services from commercial organization.
                 
@@ -458,13 +458,7 @@ export const agendaData = [
                 "title": "Geo Talk/Geo-innovation",
                 "Speaker": "Franscisco Rowe, Lead, Geographic Data Science Lab & Senior Lecturer, University of Liverpool",
                 "sessionTitle": "Use of new forms of data for human mobility",
-                "sessionContent": `This talk presents a case study of championing and delivering better outcomes in rural and off-grid electrification using geospatial tools, applications and 
-                methodology in the international development cooperation context. This talk will showcase the innovative work being done by the Electrification Planning Unit of the Nigeria Energy Support Programme, NESP, A technical assistance 
-                programme by the republic of Germany to Nigeria funded by Germany and the European Union. The programme developed activity tracks on Data collection, 
-                Data management, Analytics and Dissemination which are all integrated into an all-in-one platform – The Nigeria SE4ALL Portal (https://nigeriase4all.gov.ng/),The platform comprises a website, thematic web apps, a data manager, and a minigrid monitor. The thematic web apps are for three specific market segments 
-                targeting rural and off-grid electrification: Mini-Grids, Power Sector, and Solar Home Systems.The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
-                private off-grid power project developers now have a potent tool to empirically prospect factually for suitable locations for different electricity access 
-                solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`
+                "sessionContent": ``
             },
             {
                 "time": "2:50 - 03:10pm",
