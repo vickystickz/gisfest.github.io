@@ -24,7 +24,7 @@ const HomePage = () =>{
 
     return(
             <div className="home-container">
-            <SEO title={'GIS Festival 2022'} url={'https://gisfest.org'}/>
+                <SEO title={'GIS Festival 2022'} url={'https://gisfest.org'}/>
                 <div className="hero" id="top">
                     <div className="hero-content">
                         <div>
@@ -54,10 +54,8 @@ const HomePage = () =>{
                         <p>GISfest is a conference bringing together geospatial professionals and enthusiasts in Africa and beyond to discuss geospatial technologies and its applications in numerous industries. This event is primed to put a spotlight on geospatial technology with respect to modern tools and innovation.
                         This 2 days event will feature workshops, presentations, panel discussions, hackathons and will provide a good way to connect with community members from all over Africa. If you are a Geospatial enthusiasts, students, engineer, analysts, technician, developer, manager or you use geospatial data and/or technology then GISfest is for YOU!</p>
                     </aside>
-                </main>
-                
+                </main> 
                 <EmailSubscription />
-                    
                 <Speakers />
                 <h1 className="section-title">Call for speakers</h1>
                 <div className='page-content grid-container column-2'>
@@ -149,8 +147,6 @@ const HomePage = () =>{
                           </div>
                       )
                   })}
-
-
               </div>
             </div>
     )
