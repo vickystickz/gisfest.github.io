@@ -737,7 +737,7 @@ export const speakerData = [
         "picture": timmera,
         "color": "#c91f64"
 
-    },
+    }
 ]
 
 
