@@ -494,7 +494,7 @@ export const agendaData = [
                 "sessionTitle": "Geospatial Communities and Volunteering",
                 "sessionContent": 'A roundtable conversation that will focus on how people can kick off their careers by volunteering and the main core responsibilities and usefulness of Geocommunities'
             },{
-                "time": "3:30 - 04:20pm",
+                "time": "4:20 - 04:30pm",
                 "title": "Closing remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Closing remark",
