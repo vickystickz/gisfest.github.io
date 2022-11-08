@@ -364,9 +364,9 @@ export const agendaData = [
             {
                 "time": "9:30 - 9:50am",
                 "title": "Keynote",
-                "Speaker": "GISfest 2022",
-                "sessionTitle": "Keynote session",
-                "sessionContent": "Keynote session"
+                "Speaker": "Dr. Kenneth Mubea, Capacity Development Lead, Digital Earth Africa (DE Africa)",
+                "sessionTitle": "Geoinnovation: Is it just about location data or much more?",
+                "sessionContent": "Innovation means dreaming of a better future for customers in the industries we serve, listening to their needs, and applying our brightest, most curious minds to solve those problems. Cutting-edge development is a key to our future, but ultimately, it’s people who drive advances in geospatial technology and give purpose to our work connecting the physical and digital worlds. Innovation can only happen. The keynote session will focus on how to put people right in the center of the innovation process and how we can build an innovative community in Africa."
             },
             {
                 "time": "9:55 - 10:15am",
@@ -490,7 +490,7 @@ export const agendaData = [
             },{
                 "time": "3:30 - 04:20pm",
                 "title": "Geocommunities and Volunteering",
-                "Speaker": "Chidimma Umeogu, Co-Founder, AWiGIS",
+                "Speaker": "Chidimma Umeogu, Co-Founder, AWiGIS | Geoffrey Kateregga, Community Projects Lead at the Humanitarian OpenStreetMap Team (HOT).",
                 "sessionTitle": "Geospatial Communities and Volunteering",
                 "sessionContent": 'A roundtable conversation that will focus on how people can kick off their careers by volunteering and the main core responsibilities and usefulness of Geocommunities'
             },{
