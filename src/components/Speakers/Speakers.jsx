@@ -7,7 +7,7 @@ const Speakers = () => {
   return (
     <div className="flexbox speakers-container" id="#top">
         {/* <PageHeader title={'Speakers'} color={'#084f41'} /> */}
-        <h1>Keynote Speakers</h1>
+        <h1>Keynote Speaker & Panelists</h1>
       <div className="speaker-info-container grid-container">
         {speakerData.map((item, id)=> {
             return(
