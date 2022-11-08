@@ -34,8 +34,12 @@ import Somide_Olaoye from '../media/images/speakers/Somide_Olaoye.jpg';
 import Michael_Manalili from '../media/images/speakers/Michael_Manalili.jpg';
 import Esther_Onyekachi from '../media/images/speakers/Esther_Onyekachi.jpg';
 import Marie_Makuate from '../media/images/speakers/Marie_Makuate.jfif';
-import elham_soudy from '../media/images/speakers/Elham Soudy - WiG.jpg'
-import timmera from '../media/images/speakers/Timera.jpg'
+import elham_soudy from '../media/images/speakers/Elham Soudy - WiG.jpg';
+import timmera from '../media/images/speakers/Timera.jpg';
+import geoffrey from '../media/images/speakers/Geoffrey.jpg';
+import chidimma from '../media/images/speakers/Chidimma Umeogu - Geocomm_Vol Sess.png';
+import drKenneth from '../media/images/speakers/drkenneth.png';
+
 // Import Merchandise pictures
 
 import Bottle from '../media/images/merchandise/Bottle.webp';
@@ -644,6 +648,13 @@ export const agendaData = [
 
 export const speakerData = [
     {
+        "name": "Dr. Kenneth Mubea",
+        "JDC": "Capacity Development Lead @ Digital Earth Africa (DE Africa)",
+        "picture": drKenneth,
+        "color": "#62156f"
+
+    },
+    {
         "name": "Cyhana Williams",
         "JDC": "User Experience Researcher @ Microsoft",
         "picture": Cyhana_Williams,
@@ -701,21 +712,21 @@ export const speakerData = [
         "name": "Esther Onyekachi",
         "JDC": "Project Manager @ Esri UK",
         "picture": Esther_Onyekachi,
-        "color": "#c91f64"
+        "color": "#0B111A"
 
     },
     {
         "name": "Somide Olaoye",
         "JDC": "Innovation Software Developer - GIS (Consultant) @ UN World Food Programme",
         "picture": Somide_Olaoye,
-        "color": "#c91f64"
+        "color": "#0B111A"
 
     },
     {
         "name": "Marie_Makuate",
         "JDC": "Researcher and Geospatial Analyst",
         "picture": Marie_Makuate,
-        "color": "#c91f64"
+        "color": "#0B111A"
 
         
     },
@@ -723,15 +734,30 @@ export const speakerData = [
         "name": "Elham Ahmed Soudy",
         "JDC": "GIS Instructor @ Esri North Africa",
         "picture": elham_soudy,
-        "color": "#c91f64"
+        "color": "#0B111A"
 
     },{
         "name": "Timmera Whaley Omidire",
         "JDC": "GIS & Map Quality Analyst @ Meta",
         "picture": timmera,
-        "color": "#c91f64"
+        "color": "#0B111A"
 
-    }
+    },
+    {
+        "name": "Chidimma Umeogu",
+        "JDC": "Co-founder, AWiGIS",
+        "picture": chidimma,
+        "color": "#084f41"
+
+    },
+    {
+        "name": "Geoffrey Kateregga",
+        "JDC": "Community Projects Lead @ Humanitarian OpenStreetMap Team (HOT)",
+        "picture":geoffrey,
+        "color": "#084f41"
+
+    },
+  
 ]
 
 
