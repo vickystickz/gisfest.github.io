@@ -393,7 +393,7 @@ export const agendaData = [
             {
                 "time": "10:35 - 10:55am",
                 "title": "Geo Talk/Geo-innovation",
-                "Speaker": "Priscilla Mbasi, GIS Analyst, Zipline",
+                "Speaker": "Priscilla Abasi, GIS Analyst, Zipline",
                 "sessionTitle": "Flying to save lives with GIS (Transportation and Logistics/Health)",
                 "sessionContent": `I never thought I could use GIS to save lives. I thought saving lives was limited to Doctors, nurses and health professionals only. But working at Zipline has afforded me the opportunity to save lives by using geospatial analysis skills. Zipline is the largest medical drone delivery Company in the world now. With over 25 million miles flown, we deliver blood, vaccines and other medical products to health facilities (in deprived areas) in countries such as Rwanda, Ghana, Japan, some states in the USA and Nigeria and expanding quickly 
                 to other parts of Africa. When the covid-19 pandemic was at its peak, we were instrumental in the delivery of vaccines and PPEs in Ghana and USA.Zipline has been able to achieve this through the hard work of teams such as the fulfillment and flight operations teams, health systems integrations,  Go to market and most importantly the GIS team. The GIS Team at Zipline, basically helps the company to make important 
