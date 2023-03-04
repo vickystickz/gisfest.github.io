@@ -42,13 +42,13 @@ const Header = () => {
                 )
             })}
             
-            <div className='btn'>
+            {/* <div className='btn'>
                 <button className='nav-btn' >
                   <a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target={'blank_'}>
                   Register ➚
                   </a>
                 </button>
-            </div>
+            </div> */}
             </ul>
           <div className='nav-menu-mobile' onClick={handleClick} >
             {click ? <FaTimes className='Icon' /> : <FaBars className="Icon" />     } 
