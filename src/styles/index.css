@@ -34,15 +34,6 @@ body {
 ::-webkit-scrollbar-corner {
   background: #000;
 }
-/* html::-webkit-scrollbar {
-  width: 5px;
-}
-html::-webkit-scrollbar-track {
-  background-color: darkgray;
-}
-/* html:-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-} */ */
 
 a {
   text-decoration: none;
@@ -100,7 +91,7 @@ ul {
 
     /* Home Styling */
 
-  --hero-info-width: 60%;
+  --hero-info-width: inherit;
   --hero-info-h2-font-size:1.5em;
   --hero-height: 100vh;
   --hero-background-position: none;
@@ -122,7 +113,7 @@ ul {
      --contents-font-size:18px;
      --contents-heading-font-size:25px;
 
-     --agenda-time-padding: 20px;
+     --agenda-time-padding: 10px;
      --agenda-time-width: 12%;
      --agenda-time-font-size: 18px;
 
@@ -133,7 +124,6 @@ ul {
     --poster-deadline-width:90%;
 
     /* Countdown component styling */
-    --countdown-content: 360px; 
     --countdown-content-time-padding: 10px;
     --countdown-content-info-font-size: 15px;
     --countdown-content-span-padding: 9px;
@@ -143,6 +133,12 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 115vh;
+
+
+    --merchandise-container-grid-template-columns: repeat(3, 1fr);
+    --merchandise-container-grid-gap:70px;
+
+    --speaker-container-grid-template-columns: repeat(4, 1fr);
 }
 
 
@@ -163,15 +159,10 @@ ul {
     --speaker-container-picture-width:100%;
     --main-grid-template-columns:1fr;
      /* Countdown component  */
-    --countdown-content: 230px; 
     --countdown-content-span-line-height: 37px;
     --countdown-content-time-padding: 9px 9px 0px 9px;
     --countdown-content-span-padding: 3px;
     --countdown-content-info-font-size: 15px;
-
-     /* home:hero component styling */
-     --hero-height: 120vh;
-
      --countdown-content-small-text: 10px;
     
 
@@ -189,12 +180,12 @@ ul {
 
 
         /* Home Styling */
-      --hero-info-width: 90%;
+      --hero-info-width: inherit;
       --hero-info-h2-font-size:18px;
       
 
 
-      --hero-height: 55vh;
+      --hero-height: 70vh;
       --hero-background-position: center;
       --main-grid-template-columns: 1fr;
 
@@ -205,6 +196,8 @@ ul {
       /* Gallery */
 
       --gallery-container-grid-template-columns: 1fr;
+      --merchandise-container-grid-template-columns: 1fr;
+      --speaker-container-grid-template-columns: 1fr;
 
       /* Schedule */
       --button-padding: 13px;
@@ -240,10 +233,7 @@ ul {
        --poster-deadline-height: 250px;
 
        --gallery-container-grid-template-columns: 1fr;
-
-       
-    /* home:hero component styling */
-    --hero-height: 100vh;
+       --merchandise-container-grid-gap:45px;
 
 
     }
@@ -314,7 +304,11 @@ ul {
     --contents-font-size:16px;
     --contents-heading-font-size:20px;
 
-    --hero-height: 110vh;
+    /* home:hero component styling */
+    --hero-height: 91vh;
+
+    --merchandise-container-grid-template-columns: 1fr;
+    --merchandise-container-grid-gap:45px;
 
 }
 
@@ -336,8 +330,5 @@ ul {
       --main-h1-font-size:40px;
       --main-p-line-height: 35px;
      
-
-      --hero-height: 110vh;
     }
 }
-

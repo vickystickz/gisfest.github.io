@@ -12,7 +12,7 @@ let interval
 
   // 
 const startTimer = () => {
-  const countDownDate = new Date("November 13,2022").getTime();
+  const countDownDate = new Date("November 11,2022").getTime();
   //
   interval=setInterval(()=>{
     // get current date
@@ -47,8 +47,7 @@ useEffect(()=>{
 
   return (
       <div className='countdown-container flexbox'>
-        <div class="coundown-info">
-           <p>Conference starts in... </p>
+        <div className="coundown-info">
         </div>
         <div className='countdown-content flexbox'>
           <div className="time-block">

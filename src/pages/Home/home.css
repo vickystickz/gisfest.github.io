@@ -11,7 +11,7 @@
     grid-area: header;
     background-image: url('../../../public/assets/hero-bg.png');
     background-repeat: no-repeat; 
-    height: 120vh;
+    height: var(--hero-height);
     background-size: cover;
     background-position: var(--hero-background-position);
 }
@@ -29,7 +29,7 @@
     color:#fff;
     padding: 2rem;
     text-align: center;
-    width: var(--hero-info-width);
+    min-width: 40%;
     opacity: 0.8;
     margin-bottom: 2rem;
     border-radius:3px;
@@ -40,6 +40,8 @@
     flex-direction: row;
     gap: 1rem;
     color:#fff;
+    margin-top: 15px;
+    padding-top:16px;
 }
 
 .cta-button button:hover{
@@ -50,7 +52,6 @@
     border: none;
     background-color: var(--brand-red);
     border-radius:3px;
-
     color:#fff;
 }
 
@@ -120,7 +121,7 @@ main h1:nth-child(even){
 
 .section-title{
     text-align: center;
-    margin-top: 2px;
+    margin-top: 3rem;
     margin-bottom: 2px;
 }
 .sponsor-logo{

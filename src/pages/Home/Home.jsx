@@ -7,9 +7,11 @@ import SEO from '../SEO'
 import {Link} from 'react-router-dom';
 
 import '../Schedule/Schedule.css';
-import { agendaData,teamData,talkTypes,workshopTypes} from '../../utils/data';
+import { teamData,talkTypes,workshopTypes} from '../../utils/data';
 import TeamCard from '../../components/TeamCard/TeamCard';
 import CountDown from "../../components/CountDown/CountDown";
+import Merchandise from "../../components/Merchandise/Merchandise";
+import Speakers from "../../components/Speakers/Speakers";
 
 
 const HomePage = () =>{
@@ -22,7 +24,7 @@ const HomePage = () =>{
 
     return(
             <div className="home-container">
-            <SEO title={'GIS Festival 2022'} url={'https://gisfest.org'}/>
+                <SEO title={'GIS Festival 2022'} url={'https://gisfest.org'}/>
                 <div className="hero" id="top">
                     <div className="hero-content">
                         <div>
@@ -52,47 +54,9 @@ const HomePage = () =>{
                         <p>GISfest is a conference bringing together geospatial professionals and enthusiasts in Africa and beyond to discuss geospatial technologies and its applications in numerous industries. This event is primed to put a spotlight on geospatial technology with respect to modern tools and innovation.
                         This 2 days event will feature workshops, presentations, panel discussions, hackathons and will provide a good way to connect with community members from all over Africa. If you are a Geospatial enthusiasts, students, engineer, analysts, technician, developer, manager or you use geospatial data and/or technology then GISfest is for YOU!</p>
                     </aside>
-                </main>
-                
+                </main> 
                 <EmailSubscription />
-
-                <div className="sponsors">
-                    <h1>Sponsors</h1>
-                    <p>Coming Soon!</p>
-                    <div className="sponsor-logo">
-                        Your Logo here
-                    </div>
-                    <h1>Call for Sponsorship</h1>
-                    <p>If your organization is interested in sponsoring the GISfest event, kindly go through our sponsorship deck.</p>
-                    <p>Please click <a href="https://drive.google.com/file/d/1VG_UmUuGMQV0opTafsMTKSBP_2QJ6ai3/view?usp=sharing" rel="noreferrer" target='_blank' style={{textDecoration:'underline'}}>here</a> to download our sponsorship deck.</p>
-                </div>
-
-                <h1 className="section-title">Agenda</h1>
-                <div className='page-content schedule-container '>
-                               
-                    <div className='agenda-content'>
-                        {agendaData.map((agendaItem, index) => {
-                        return (
-                            <div key={index} className="agenda-day-content">
-                            <div className='date-container'>{agendaItem.day}</div>
-                            {agendaItem.timeContent.map((agendaSchedule,id) => {
-                                return (
-                                <div className='agenda-schedule-container' key={id}>
-                                    <div className='agenda-schedule-content'>
-                                    <h3>{agendaSchedule.title}</h3>
-                                    <p className='session-content'>Focus: {agendaSchedule.sessionContent}</p>
-                                    </div>
-                                </div>
-                                )
-                            })}
-                            
-                            </div>
-                        )
-                        })}
-
-                    </div>
-                </div>
-
+                <Speakers />
                 <h1 className="section-title">Call for speakers</h1>
                 <div className='page-content grid-container column-2'>
                 <div className='paper-info'>
@@ -161,10 +125,8 @@ const HomePage = () =>{
                    </div>
                    
                 </div>
-        
-               
-        
-                </div> 
+                </div>
+                <Merchandise /> 
                 <h1 className="section-title">The planning team!</h1>
                 <div className='page-content'>
                 {teamData.map((Team,index) => {
