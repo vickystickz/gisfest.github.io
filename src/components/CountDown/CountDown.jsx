@@ -12,7 +12,7 @@ let interval
 
   // 
 const startTimer = () => {
-  const countDownDate = new Date("November 13,2022").getTime();
+  const countDownDate = new Date("November 11,2022").getTime();
   //
   interval=setInterval(()=>{
     // get current date

@@ -1,6 +1,7 @@
-.schedule-conatiner {
+.schedule-container {
     justify-content: center;
     align-content: center;
+    width: 95%;
     
 }
 
@@ -26,7 +27,7 @@
 
 
 .date-container {
-    padding: 20px;
+    padding: 10px;
     background-color: var(--background-black);
     color: #fff;
     font-size: 20px;
@@ -47,81 +48,45 @@
     margin-bottom: 10px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(255, 255, 255, .4) 0px 3px 6px;
+    flex-direction: column;
    }
 
 
 .agenda-time {
     padding: var(--agenda-time-padding);
     background-color: var(--brand-red);
-    text-align: center;
-    font-size: 17px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 10px;
     width: var(--agenda-time-width);
     line-height: 38px;
     color: #fff;
 }
 
-.agenda-schedule-content {
-    padding: 25px;
+.agenda-schedule-content  {
+    padding: 10px;
+   
 }
+
 
 .agenda-schedule-content > *{
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 
 
-.speakers-content {
-    margin: 60px auto;
-    width: 90%; 
-}
-
-
-.speaker-container {
-    display: flex;
-    border: 1px solid #B1B1B1;
-    width: 100%;
-    margin-bottom: 50px;
-    flex-direction: var(--speaker-container-flex-direction);
-    gap:var(--speaker-container-gap);
-   
-}
-
-.speaker-details-content {
-    padding: 10px;
-    text-align: justify;
-    width: 100%;
-}
 
 
 
-.speaker-picture {
-    border: 10px solid var(--brand-yellow);
-    width: var( --speaker-container-picture-width);
-    height: var( --speaker-container-picture-height);
-    
-   
-}
 
-.speaker-picture img {
-    width: 100%;
-    height: 100%;
-}
 
-.session-tag {
-    background-color: var(--brand-yellow);
-    color: #fff;
-    width: fit-content;
-    border-radius: 5px;
-    border: 2px solid #0B111A;
-    padding: 10px;
-}
 
-.session-speaker {
-    font-size: 17px;
-}
+
+
 
 .session-content {
-    font-size: 15px;
+    font-size: 16px;
+   
 }
 
 .travel-guide-container ul {
