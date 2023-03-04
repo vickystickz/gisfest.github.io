@@ -95,6 +95,7 @@ ul {
   --hero-info-h2-font-size:1.5em;
   --hero-height: 100vh;
   --hero-background-position: none;
+  --hero-content-gap: 60px;
 
   --home-main-p-font-size: 18px;
   --home-main-p-line-height: 35px; 
@@ -133,6 +134,7 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 115vh;
+    --pro-button-padding:16px 24px 16px 24px; 
 
 
     --merchandise-container-grid-template-columns: repeat(3, 1fr);
@@ -164,8 +166,6 @@ ul {
     --countdown-content-span-padding: 3px;
     --countdown-content-info-font-size: 15px;
      --countdown-content-small-text: 10px;
-    
-
 
   }
 }
@@ -205,7 +205,6 @@ ul {
       --agenda-time-padding: 0;
 
        --speaker-container-flex-direction:column;
-
   
   }
 }
@@ -234,7 +233,6 @@ ul {
 
        --gallery-container-grid-template-columns: 1fr;
        --merchandise-container-grid-gap:45px;
-
 
     }
 }
@@ -295,6 +293,7 @@ ul {
     --agenda-time-width: 28%;
     --speaker-container-flex-direction: column;
     --speaker-container-gap: 10px;
+    --agenda-time-width: 150px;
 
     --gallery-container-grid-template-columns: auto;
 
@@ -306,6 +305,8 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 91vh;
+    --hero-content-gap: 200px;
+    --pro-button-padding:24px 32px 24px 32px; 
 
     --merchandise-container-grid-template-columns: 1fr;
     --merchandise-container-grid-gap:45px;

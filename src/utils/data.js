@@ -363,21 +363,24 @@ export const agendaData = [
                 "title": "Opening Remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Opening Remark",
-                "sessionContent": "Opening Remark"
+                "sessionContent": "Opening Remark",
+                "watchLink": "https://www.youtube.com/watch?v=fxppNUzJLuc&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=16"
             },
             {
                 "time": "9:30 - 9:50am",
                 "title": "Keynote",
                 "Speaker": "Dr. Kenneth Mubea, Capacity Development Lead, Digital Earth Africa (DE Africa)",
                 "sessionTitle": "Geoinnovation: Is it just about location data or much more?",
-                "sessionContent": "Innovation means dreaming of a better future for customers in the industries we serve, listening to their needs, and applying our brightest, most curious minds to solve those problems. Cutting-edge development is a key to our future, but ultimately, it’s people who drive advances in geospatial technology and give purpose to our work connecting the physical and digital worlds. Innovation can only happen. The keynote session will focus on how to put people right in the center of the innovation process and how we can build an innovative community in Africa."
+                "sessionContent": "Innovation means dreaming of a better future for customers in the industries we serve, listening to their needs, and applying our brightest, most curious minds to solve those problems. Cutting-edge development is a key to our future, but ultimately, it’s people who drive advances in geospatial technology and give purpose to our work connecting the physical and digital worlds. Innovation can only happen. The keynote session will focus on how to put people right in the center of the innovation process and how we can build an innovative community in Africa.",
+                "watchLink": "https://www.youtube.com/watch?v=VdmcjR599Aw&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=15"
             },
             {
                 "time": "9:55 - 10:15am",
                 "title": "Geo Talk/Geo-innovation",
                 "Speaker": "Kumbirai Nicholas, Zimbabwe National Point of Contact, Space Generation Advisory Council",
                 "sessionTitle": "An Integrated Medical Sample Transportation System (IMSTS)",
-                "sessionContent": "Effective sample collection and transportation are key in disease diagnosis and in monitoring the success or failure of treatment, as well as in supporting diagnosis and management of any attendant adverse effects of treatment. The current system for moving samples is not harmonized and has brought about quite a several challenges which include but are not limited to a lack of ineffective coordination between the collection and receiving ends for samples, and a lack of timely transition of results to facilities resulting in a longer turn-around time. The goal of the integrated medical sample transportation system is to ensure that the existing health structures in Zimbabwe (the Ministry of Health and Child Care of Zimbabwe) have a strong, sustainable, and well-coordinated IMSTS for use by both partner and non-partner-funded health institutions which is well managed for improved health service delivery in Zimbabwe."
+                "sessionContent": "Effective sample collection and transportation are key in disease diagnosis and in monitoring the success or failure of treatment, as well as in supporting diagnosis and management of any attendant adverse effects of treatment. The current system for moving samples is not harmonized and has brought about quite a several challenges which include but are not limited to a lack of ineffective coordination between the collection and receiving ends for samples, and a lack of timely transition of results to facilities resulting in a longer turn-around time. The goal of the integrated medical sample transportation system is to ensure that the existing health structures in Zimbabwe (the Ministry of Health and Child Care of Zimbabwe) have a strong, sustainable, and well-coordinated IMSTS for use by both partner and non-partner-funded health institutions which is well managed for improved health service delivery in Zimbabwe.",
+                "watchLink": "https://www.youtube.com/watch?v=lBaPcU3XIdc&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=8"
             },
             {
                 "time": "10:15 - 10:35am",
@@ -387,7 +390,8 @@ export const agendaData = [
                 "sessionContent": `Promoting a data-driven decision making culture in Tanga under living lab initiative, we are complementing the global objective i.e. Creating a free editable 
                 geographic database of the world by various mapping activities around the region. The initiative uses local member by building capacity and University Students. 
                 These mappings have been putting the missing pieces of the community on the map and addressing challenges they face so far. The usage of GIS data as a tool 
-                for community as a decision-making data tool can help in timely action and on-time problem-solving.`
+                for community as a decision-making data tool can help in timely action and on-time problem-solving.`,
+                "watchLink": "https://www.youtube.com/watch?v=aFLRmof9d0A&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=9"
             },
 
             {
@@ -399,7 +403,8 @@ export const agendaData = [
                 to other parts of Africa. When the covid-19 pandemic was at its peak, we were instrumental in the delivery of vaccines and PPEs in Ghana and USA.Zipline has been able to achieve this through the hard work of teams such as the fulfillment and flight operations teams, health systems integrations,  Go to market and most importantly the GIS team. The GIS Team at Zipline, basically helps the company to make important 
                 decisions regarding where to place a distribution center (DC). The site selection process takes into consideration the countries' keep out areas,  population coverage, number of health facilities, access to basic amenities among other things. 
                 The team comprises engineers, developers and analysts who build tools and also manage all geospatial data necessary to make the drone’s flight from the DCs to the health facilities or delivery locations safe and successful. Some of the GIS processes the team handles includes spatial analysis, UAV data capture and processing, database management, 3D spatial modeling, spatial programming etc. 
-                My talk will introduce Zipline as a successful medical drone logistics company and a deep but quick dive into how GIS is used to save lives at Zipline. I am hopeful that in the end, the audience will see another side of GIS that I absolutely love and come to know that there is more to GIS than just giving answers to a “where” question.`
+                My talk will introduce Zipline as a successful medical drone logistics company and a deep but quick dive into how GIS is used to save lives at Zipline. I am hopeful that in the end, the audience will see another side of GIS that I absolutely love and come to know that there is more to GIS than just giving answers to a “where” question.`,
+                "watchLink": "https://www.youtube.com/watch?v=nAUDpzIj12s&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=4"
             },
             {
                 "time": "11:00 - 12:00PM",
@@ -409,7 +414,8 @@ export const agendaData = [
                 Taslim Salaudeen, Census Field Technology Consultant, National Population Comission`,
                 "sessionTitle": "Career Panel Session (Non-Technical)",
                 "sessionContent": `The non-technical career session is a roundtable conversation on the pillars, structures, and guides needed to grow and professionally advance in non-technical roles in 
-                academia, consultancy, public, private, and social sectors.`
+                academia, consultancy, public, private, and social sectors.`,
+                "watchLink": "https://www.youtube.com/watch?v=PtTrjhCl0Pc&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=2"
             },
             {
                 "time": "12:00 - 1:00pm",
@@ -432,7 +438,8 @@ export const agendaData = [
                 -  Docker 
                 - Command line
                 - Willingness to learn
-                - Basic technical skills`
+                - Basic technical skills`,
+                "watchLink": "https://www.youtube.com/watch?v=_YISLCVMC0o&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=10"
             },
             {
                 "time": "12:00 - 1:00pm",
@@ -451,7 +458,8 @@ export const agendaData = [
                 6. Securing Data ( Users, roles, etc.) 
                 7. Optimising Performance (logs, stress, etc.) 
                 8. Adding extensions to Geoserver
-                9. Filtering Data in geoserver`
+                9. Filtering Data in geoserver`,
+                "watchLink": "https://www.youtube.com/watch?v=zjdzzEAkUA4&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=12"
             },
             {
                 "time": "1:00 - 2:30pm",
@@ -462,7 +470,8 @@ export const agendaData = [
                 "title": "Geo Talk/Geo-innovation",
                 "Speaker": "Franscisco Rowe, Lead, Geographic Data Science Lab & Senior Lecturer, University of Liverpool",
                 "sessionTitle": "Use of new forms of data for human mobility",
-                "sessionContent": ``
+                "sessionContent": ``,
+                "watchLink": ""
             },
             {
                 "time": "2:50 - 03:10pm",
@@ -482,7 +491,8 @@ export const agendaData = [
                 
                 The tool now enables the government to objectively craft policies regarding rural and off-grid electrification. Furthermore, the key enablers of electrification, 
                 private off-grid power project developers now have a potent tool to empirically prospect factually for suitable locations for different electricity access 
-                solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`
+                solutions right from their various bases of operation thereby reducing the upfront effort and costs associated with site prospecting and pipelining.`,
+                "watchLink": "https://www.youtube.com/watch?v=qgp3cTBJk60&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=5"
             },
 
             {
@@ -490,19 +500,22 @@ export const agendaData = [
                 "title": "Industry Opportunities",
                 "Speaker": "",
                 "sessionTitle": "",
-                "sessionContent": ``
+                "sessionContent": ``,
+                "watchLink": ""
             },{
                 "time": "3:30 - 04:20pm",
                 "title": "Geocommunities and Volunteering",
                 "Speaker": "Chidimma Umeogu, Co-Founder, AWiGIS | Geoffrey Kateregga, Community Projects Lead at the Humanitarian OpenStreetMap Team (HOT).",
                 "sessionTitle": "Geospatial Communities and Volunteering",
-                "sessionContent": 'A roundtable conversation that will focus on how people can kick off their careers by volunteering and the main core responsibilities and usefulness of Geocommunities'
+                "sessionContent": 'A roundtable conversation that will focus on how people can kick off their careers by volunteering and the main core responsibilities and usefulness of Geocommunities',
+                "watchLink": "https://www.youtube.com/watch?v=t6v_xyLRHq8&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=1"
             },{
                 "time": "4:20 - 04:30pm",
                 "title": "Closing remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Closing remark",
-                "sessionContent": `Closing remark`
+                "sessionContent": `Closing remark`,
+                "watchLink": ""
             },
            
             
@@ -515,21 +528,24 @@ export const agendaData = [
                 "title": "Opening Remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Opening Remark",
-                "sessionContent": "Opening Remark"
+                "sessionContent": "Opening Remark",
+                "watchLink": ""
             },
             {
                 "time": "9:30 - 9:50am",
                 "title": "Keynote",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Keynote session",
-                "sessionContent": "Keynote session"
+                "sessionContent": "Keynote session",
+                "watchLink": ""
             },
             {
                 "time": "9:55 - 10:15am",
                 "title": "Geo Talk/Geo-innovation",
                 "Speaker": "Youdahe Gebremariam Tsehaye, Founder, Way Maps and Analytics",
                 "sessionTitle": "About Way Maps and Projects",
-                "sessionContent": ""
+                "sessionContent": "12",
+                "watchLink": "https://www.youtube.com/watch?v=xuLYuSP33_I&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=11"
             },
             {
                 "time": "10:15 - 10:35am",
@@ -542,7 +558,8 @@ export const agendaData = [
                  not recognize the boundaries built around our definitions of scientific disciplines. Spatial Information is essential to solving local and global challenges. Therefore, research 
                 approaches should be flexible enough to match the complexity of any given problem. This article reviews successful examples of the application of GIScience to different 
                 challenges.  It also recommends an approach to addressing complex problems using spatial information as an integrator of related core knowledge areas. Finally, the 
-                prospects and challenges of transdisciplinary studies are fully highlighted.`
+                prospects and challenges of transdisciplinary studies are fully highlighted.`,
+                "watchLink": "https://www.youtube.com/watch?v=dDn70QiifkE&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=3"
             },
 
             {
@@ -550,7 +567,8 @@ export const agendaData = [
                 "title": "Career Panel Session (Technical)",
                 "Speaker": "Linda Ochwada, Matt Forest, Somide Olaoye and Timmera Whaley",
                 "sessionTitle": "Career Panel Session (Technical)",
-                "sessionContent": `The technical career session is a roundtable conversation on the pillars, structures, and guides needed to grow and professionally advance in technical roles in the industry.`
+                "sessionContent": `The technical career session is a roundtable conversation on the pillars, structures, and guides needed to grow and professionally advance in technical roles in the industry.`,
+                "watchLink": "https://www.youtube.com/watch?v=Yeta4Wsu1SY&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=6"
             },
             {
                 "time": "12:00 - 1:00pm",
@@ -561,7 +579,8 @@ export const agendaData = [
                 and mapping tools on JOSM,, introduce tips and tricks working with complex shapes, background imageries settings, to do list plugin among others.
                 
                 Having made your first edits with JOSM, there are a couple of tips and tricks to learn to make your daily mapping life in this JOSM easier. JOSM, considered an advanced 
-                mappers tool, is an easy-to-use OSM software that makes mapping in OSM easier and more interesting using plugins and various mapping tools.`
+                mappers tool, is an easy-to-use OSM software that makes mapping in OSM easier and more interesting using plugins and various mapping tools.`,
+                "watchLink": "https://www.youtube.com/watch?v=5AEozgE2LhI&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=14"
             },
             {
                 "time": "12:00 - 1:00pm",
@@ -579,11 +598,14 @@ export const agendaData = [
                 2. Zoom based Styling
                 3. Variable Styling
                 4. Labeling and it's optimisation
-                5. Legends`
+                5. Legends`,
+                "watchLink": "https://www.youtube.com/watch?v=UFcDHg0hRuk&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=17"
+
             },
             {
                 "time": "1:00 - 2:30pm",
-                "title": "Lunch Break/Networking"
+                "title": "Lunch Break/Networking",
+                "watchLink": ""
             },
             {
                 "time": "2:30 - 03:30pm",
@@ -593,7 +615,8 @@ export const agendaData = [
                 "sessionContent": `A cloud computing platform called Google Earth Engine  was created to store and analyze enormous data sets (at the petabyte scale) for analysis and decision-making. 
                  Following the 2008 release of the Landsat series for free, Google saved all the data sets  (https://earthengine.google.com/datasets/) and linked them to the cloud computing engine for open source use. The current archive of data includes those from other satellites, as well as Geographic Information Systems based vector data sets, social, demographic, weather, digital 
                 elevation models, and climate data layers. The front-end's simplicity and usability make it an ideal setting for the creation of interactive data and algorithms. Users can also add and curate their own data and collections, with all processing handled by Google's cloud resources. 
-                `
+                `,
+                "watchLink": ""
             },
             {
                 "time": "2:30 - 03:30pm",
@@ -618,7 +641,9 @@ export const agendaData = [
                 environmental data as an example.
                 
                 Finally, users will be pointed to an alternative interface to analyse spatial data (QGIS) and cloud computing interface for spatial analytics with 
-                python (GEE (Google Earth Engine and Google Colab))`
+                python (GEE (Google Earth Engine and Google Colab))`,
+                "watchLink": "https://www.youtube.com/watch?v=mb3XKx4g1Iw&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=13"
+
             },
 
             {
@@ -626,15 +651,15 @@ export const agendaData = [
                 "title": "Women in GIS Career Session",
                 "Speaker": "Cyhana Williams, Marie Makuate, Dr. Clara Mundia, Elham Ahmed Soudy and Boineelo Moyo",
                 "sessionTitle": "Women in GIS Career Session",
-                "sessionContent": `The Women in GIS career session is a roundtable conversation on the pillars and paths to skill development and growth in the geospatial industry with major focus on Women
-
-                `
+                "sessionContent": `The Women in GIS career session is a roundtable conversation on the pillars and paths to skill development and growth in the geospatial industry with major focus on Women`,
+                "watchLink": "https://www.youtube.com/watch?v=d9LvpWVXVz8&list=PLLlls9tZON6fwsAiQC_upJk9NDItORaOa&index=7"
             },{
                 "time": "4:15 - 04:30pm",
                 "title": "Closing remark",
                 "Speaker": "GISfest 2022",
                 "sessionTitle": "Closing remark",
-                "sessionContent": `Closing remark`
+                "sessionContent": `Closing remark`,
+                "watchLink": ""
             },
            
             
