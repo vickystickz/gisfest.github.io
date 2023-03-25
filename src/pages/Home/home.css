@@ -19,6 +19,7 @@
 .hero-content{
     display: flex;
     flex-direction: column;
+    gap: var(--hero-content-gap);
     align-items: center;
     justify-content: center;
     padding-top: 3.7vh;
@@ -44,7 +45,7 @@
     padding-top:16px;
 }
 
-.cta-button button:hover{
+.cta-button button:hover, .pro-button:hover{
     background-color: var(--brand-yellow);
 }
 
@@ -54,6 +55,28 @@
     border-radius:3px;
     color:#fff;
 }
+.pro-button{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-black);
+    color:black;
+    padding:var(--pro-button-padding);
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+.pro-text{
+    color: #fff;
+}
+
+
+.pro-Icon{
+    color: #fff;
+    font-size: 25px;
+}
+
+
 
 @media screen and (max-width: 550px) { 
     .cta-button{
