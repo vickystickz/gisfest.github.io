@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 import FAQS from './pages/FAQS/FAQS';
 // import Travel from './pages/Travel/Travel';
 import Schedule from './pages/Schedule/Schedule';
-import CallForSpeakers from './pages/CallForSpeakers/CallForSpeakers';
+// import CallForSpeakers from './pages/CallForSpeakers/CallForSpeakers';
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
             {/* <Route path="/gallery" element={<Gallery/>}/>*/}
             {/*<Route path="/travel" element={<Travel />}/>*/}
             <Route path="/faqs" element={<FAQS />}/>
-            <Route path="/call-for-speakers"  element={<CallForSpeakers />}/>
+             {/*<Route path="/call-for-speakers"  element={<CallForSpeakers />}/>*/}
             <Route path="/schedule" element={<Schedule/>}/>
           </Routes>
       <Footer />

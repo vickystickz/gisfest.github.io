@@ -51,9 +51,9 @@ const EmailSubscription = ( )=>{
     return(
         <section id="email-subscription" >
             <div>
-                <h3>Register for GISfest 2022 Conference</h3>
-                <p>Registration for GISfest Conference 2022 is now open! The cost of a ticket is <span style={{fontWeight:'bold'}}>5$</span> for Students and <span style={{fontWeight:'bold'}}>12$</span> for Professionals.</p>
-                <p>Click on button below to register for GISfest 2022 Conference</p>
+                <h3>Register for GISfest 2023 Conference</h3>
+                <p>Registration for GISfest Conference 2023 is coming soon!Follow us on social media to stay informed.</p>
+                
                     <div>
                         {/*<MailchimpSubscribe
                             url={BASE_URL}
@@ -65,7 +65,7 @@ const EmailSubscription = ( )=>{
                                 </form>)
                             }
                         />*/}
-                        <button type="submit"><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target={'blank_'}>Register Now! ➚</a></button>
+                        <button type="submit"><a href="https://twitter.com/gis_fest" rel="noreferrer" target={'blank_'}>Follow us➚</a></button>
                     </div>
             </div>
         </section>
