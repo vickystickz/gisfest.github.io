@@ -31,19 +31,17 @@ const HomePage = () => {
             <h2>10 - 11th November, 2023  | </h2>
             <h2>Lagos, Nigeria.</h2>
           </div>
-           <a className="pro-button" href="https://www.youtube.com/@gisfest/videos" rel="noreferrer" target='_blank'>
+          <div className="cta-button">
+            <a className="pro-button" href="https://www.youtube.com/@gisfest/videos" rel="noreferrer" target='_blank'>
               <BsFillCollectionPlayFill className="pro-Icon" />
               <span className="pro-text">GISfest 2022 Proceedings</span>
             </a>
-          {/* <div className="cta-button">
-            <Link to="/call-for-speakers"><button type="submit">Submit An Abstract</button></Link>
-            <button><a href="https://forms.gle/8i92Wr8wcDjRm7Zg9" rel="noreferrer" target='_blank'>Register Now!</a></button>
-          </div> */}
+          </div>
+          
 
         </div>
 
       </div>
-
       <main>
         <aside>
           <h1>LEARN.</h1>
@@ -56,7 +54,6 @@ const HomePage = () => {
         </aside>
       </main>
       <EmailSubscription />
-      
       <Merchandise />
       
     </div>
