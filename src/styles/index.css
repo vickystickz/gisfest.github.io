@@ -51,6 +51,10 @@ ul {
   display: flex;
   justify-content: center;
 }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
@@ -95,7 +99,7 @@ ul {
   --hero-info-h2-font-size:1.5em;
   --hero-height: 100vh;
   --hero-background-position: none;
-  --hero-content-gap: 60px;
+  --hero-content-gap: 25px;
 
   --home-main-p-font-size: 18px;
   --home-main-p-line-height: 35px; 
@@ -305,7 +309,7 @@ ul {
 
     /* home:hero component styling */
     --hero-height: 91vh;
-    --hero-content-gap: 200px;
+    --hero-content-gap: 60px;
     --pro-button-padding:24px 32px 24px 32px; 
 
     --merchandise-container-grid-template-columns: 1fr;

@@ -28,13 +28,14 @@
 }
 
 .hero-info{
+    gap: 0.2rem;
     background-color: black;
     color:#fff;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     min-width: 40%;
     opacity: 0.8;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     border-radius:3px;
 }
 

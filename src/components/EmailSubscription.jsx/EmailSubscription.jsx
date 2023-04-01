@@ -65,7 +65,7 @@ const EmailSubscription = ( )=>{
                                 </form>)
                             }
                         />*/}
-                        <button type="submit"><a href="https://twitter.com/gis_fest" rel="noreferrer" target={'blank_'}>Follow us➚</a></button>
+                        <button type="submit"><a href="https://twitter.com/gis_fest" rel="noreferrer" target={'blank_'}>Follow us ➚</a></button>
                     </div>
             </div>
         </section>

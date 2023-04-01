@@ -36,12 +36,12 @@ const Footer = () => {
                 const {url,social} = links;
                 return(
                 <a href={url} key={id} target="_blank" rel="noreferrer noopener" className='socialmedia-link' >
-                {social==='Gmail'&&<img src={gmail_logo} alt="gmail"/>}
-                {social==='Youtube'&&<img src={youtube} alt="youtube"/>}
-                {social==='Twitter'&&<img src={twitter} alt="twitter"/>}
-                {social==='Instagram'&&<img src={Instagram} alt="instagram"/>}
-                {social==='Linkedin'&&<img src={linkedin} alt="linkedin"/>}
-                {social==='Github'&&<img src={github} alt="github"/>}
+                {social==='Gmail'&&<img src={gmail_logo} alt="gmail" className='socialmedia-icon'/>}
+                {social==='Youtube'&&<img src={youtube} alt="youtube" className='socialmedia-icon'/>}
+                {social==='Twitter'&&<img src={twitter} alt="twitter" className='socialmedia-icon'/>}
+                {social==='Instagram'&&<img src={Instagram} alt="instagram" className='socialmedia-icon'/>}
+                {social==='Linkedin'&&<img src={linkedin} alt="linkedin" className='socialmedia-icon'/>}
+                {social==='Github'&&<img src={github} alt="github" className='socialmedia-icon'/>}
                 </a>
                 )
             })

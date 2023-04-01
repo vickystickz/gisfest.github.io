@@ -27,8 +27,8 @@ const HomePage = () => {
           <div>
             <img src="/assets/logo_colored.png" alt="Background"></img>
           </div>
-          <div className="hero-info flexbox">
-            <h2>10 - 11th November, 2023  | </h2>
+          <div className="hero-info flex-col">
+            <h2>10 - 11th November, 2023</h2>
             <h2>Lagos, Nigeria.</h2>
           </div>
           <div className="cta-button">
@@ -37,8 +37,6 @@ const HomePage = () => {
               <span className="pro-text">GISfest 2022 Proceedings</span>
             </a>
           </div>
-          
-
         </div>
 
       </div>
