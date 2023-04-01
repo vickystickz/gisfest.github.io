@@ -113,7 +113,7 @@ export const MenuItems=[
        "cName": "nav-link"
     },
     {
-        "title": "Agenda",
+        "title": "Proceedings",
         "url": "/schedule",
         "cName": "nav-link"
      },
@@ -138,11 +138,11 @@ export const MenuItems=[
         "url": "/faqs",
         "cName": "nav-link"
      },
-     {  
-        "title": "Call for Speakers",
-        "url": "/call-for-speakers",
-        "cName": "nav-link"
-     },
+    //  {  
+    //     "title": "Call for Speakers",
+    //     "url": "/call-for-speakers",
+    //     "cName": "nav-link"
+    //  },
      {
         "title": "Team",
         "url": "/team",
@@ -155,26 +155,26 @@ export const MenuItems=[
 
 export const footerMenuItems = [
   
-    {
-        "title": "Subscribe",
-        "url": "/#email-subscription",
-        "sign": "|"
-     },
+    // {
+    //     "title": "Subscribe",
+    //     "url": "/#email-subscription",
+    //     "sign": "|"
+    //  },
      {
         "title": "Organizing Team",
         "url": "/team",
         "sign": "|"
      },
      {
-        "title": "Agenda",
+        "title": "Proceedings",
         "url": "/schedule",
         "sign": "|"
      },
-     {
-        "title": "Call For Speakers",
-        "url": "/call-for-speakers",
-        "sign": "|"
-     },
+    //  {
+    //     "title": "Call For Speakers",
+    //     "url": "/call-for-speakers",
+    //     "sign": "|"
+    //  },
     //  {
     //     "title": "Hackathon",
     //     "url": "/hackathon",
@@ -317,33 +317,33 @@ export const FAQData = [
     {
         "id": 0,
         "Question":"When and where will GISfest take place?",
-        "Answer":"GISfest 2022 will hold virtually on the 11-12th of November."
+        "Answer":"GISfest 2023 will take place in Lagos, Nigeria on the 10-11th of November."
     },
-    {
-        "id": 1,
-        "Question":"What is the ticket cost for GISfest?",
-        "Answer":"The ticket cost is $5USD for students and $12 for Professionals. Transactions will be charged in your local currency."
-    },
-    {
-        "id": 3,
-        "Question":"What is the refund policy?",
-        "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
-    },
+    // {
+    //     "id": 1,
+    //     "Question":"What is the ticket cost for GISfest?",
+    //     "Answer":"The ticket cost is $5USD for students and $12 for Professionals. Transactions will be charged in your local currency."
+    // },
+    // {
+    //     "id": 3,
+    //     "Question":"What is the refund policy?",
+    //     "Answer":"Tickets are non-refundable, but they are transferable. In case of emergencies, please email support@gisfest.org."
+    // },
     {
         "id": 4,
         "Question":"How do I become a Speaker?",
-        "Answer":"Submit your session ideas to the Call for Speakers by October 15th, 2022."
+        "Answer":"Call for speakers will be opened soon. Follow us on social media to stay informed."
     },
     {
         "id": 5,
         "Question":"How do I become a Sponsor?",
         "Answer":" If you have questions about sponsorship, please email sponsors@gisfest.org."
     },
-    {
-        "id": 6,
-        "Question":"Will sessions be recorded?",
-        "Answer":"All conference sessions at GISfest 2022 will be recorded and available to attendees after the event."
-    },
+    // {
+    //     "id": 6,
+    //     "Question":"Will sessions be recorded?",
+    //     "Answer":"All conference sessions at GISfest 2022 will be recorded and available to attendees after the event."
+    // },
     {
         "id": 8,
         "Question":"Who should I contact if I have questions?",
@@ -471,7 +471,7 @@ export const agendaData = [
                 "Speaker": "Franscisco Rowe, Lead, Geographic Data Science Lab & Senior Lecturer, University of Liverpool",
                 "sessionTitle": "Use of new forms of data for human mobility",
                 "sessionContent": ``,
-                "watchLink": ""
+                "watchLink": "https://www.youtube.com/watch?v=scc-IjtmD0E"
             },
             {
                 "time": "2:50 - 03:10pm",

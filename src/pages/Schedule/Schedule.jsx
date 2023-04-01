@@ -11,7 +11,7 @@ const Schedule = () => {
   return (
     <div className="main-content" id="#top">
       <SEO title={'Conference Schedule -- GIS Festival 2022'} url={'https://gisfest.org/schedule'} />
-      <PageHeader title={'Conference Schedule'}
+      <PageHeader title={'2022 Conference Proceedings'}
         color={'#084f41'}
       />
       <div className='page-content schedule-container '>
